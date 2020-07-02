@@ -16,7 +16,7 @@
             "outputs": [],
             "position": {
                 "left": 250,
-                "top": 756.4998779296875
+                "top": 756
             },
             "tool_id": null,
             "tool_state": "{\"collection_type\": \"list\"}",
@@ -48,7 +48,7 @@
             ],
             "position": {
                 "left": 2975,
-                "top": 2465.4999389648438
+                "top": 2465
             },
             "post_job_actions": {
                 "HideDatasetActionoutfile": {
@@ -86,8 +86,8 @@
                 }
             ],
             "position": {
-                "left": 3948.5,
-                "top": 1297.4999389648438
+                "left": 3948,
+                "top": 1297
             },
             "post_job_actions": {
                 "HideDatasetActionoutfile": {
@@ -135,8 +135,8 @@
                 }
             ],
             "position": {
-                "left": 497.5,
-                "top": 729.4998779296875
+                "left": 497,
+                "top": 729
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -185,7 +185,7 @@
             ],
             "position": {
                 "left": 3316,
-                "top": 2365.4999389648438
+                "top": 2365
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -234,7 +234,7 @@
             ],
             "position": {
                 "left": 4105,
-                "top": 1370.4999389648438
+                "top": 1370
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -306,8 +306,8 @@
                 }
             ],
             "position": {
-                "left": 742.5,
-                "top": 678.4998779296875
+                "left": 742,
+                "top": 678
             },
             "post_job_actions": {
                 "ChangeDatatypeActionfastq_out": {
@@ -414,7 +414,7 @@
             ],
             "position": {
                 "left": 1112,
-                "top": 557.9998779296875
+                "top": 557
             },
             "post_job_actions": {
                 "HideDatasetActionlog_read_length": {
@@ -507,8 +507,8 @@
                 }
             ],
             "position": {
-                "left": 1488.5,
-                "top": 816.4998779296875
+                "left": 1488,
+                "top": 816
             },
             "post_job_actions": {
                 "ChangeDatatypeActionassembly_gfa": {
@@ -583,8 +583,8 @@
                 }
             ],
             "position": {
-                "left": 1811.25,
-                "top": 745.7498779296875
+                "left": 1811,
+                "top": 745
             },
             "post_job_actions": {
                 "RenameDatasetActionout_file1": {
@@ -641,7 +641,7 @@
             ],
             "position": {
                 "left": 1797,
-                "top": 1023.9998779296875
+                "top": 1023
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/0.8.1+galaxy0",
@@ -698,7 +698,7 @@
             ],
             "position": {
                 "left": 1823,
-                "top": 1584.4999389648438
+                "top": 1584
             },
             "post_job_actions": {
                 "HideDatasetActionalignment_output": {
@@ -778,8 +778,8 @@
                 }
             ],
             "position": {
-                "left": 2329.3333129882812,
-                "top": 177.833251953125
+                "left": 2329,
+                "top": 177
             },
             "post_job_actions": {
                 "HideDatasetActionblast_hits": {
@@ -881,7 +881,7 @@
             ],
             "position": {
                 "left": 2344,
-                "top": 530.9998779296875
+                "top": 530
             },
             "post_job_actions": {
                 "HideDatasetActionchromosomes": {
@@ -961,7 +961,7 @@
             ],
             "position": {
                 "left": 2355,
-                "top": 748.9998779296875
+                "top": 748
             },
             "post_job_actions": {
                 "HideDatasetActionlog_read_length": {
@@ -1078,8 +1078,8 @@
                 }
             ],
             "position": {
-                "left": 2343.616668701172,
-                "top": 1028.1165771484375
+                "left": 2343,
+                "top": 1028
             },
             "post_job_actions": {
                 "HideDatasetActionout_err": {
@@ -1183,8 +1183,8 @@
                 }
             ],
             "position": {
-                "left": 2726.25,
-                "top": 778.2498779296875
+                "left": 2726,
+                "top": 778
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -1233,7 +1233,7 @@
             ],
             "position": {
                 "left": 2918,
-                "top": 1094.4999389648438
+                "top": 1094
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -1281,8 +1281,8 @@
                 }
             ],
             "position": {
-                "left": 2684.5,
-                "top": 1789.4999389648438
+                "left": 2684,
+                "top": 1789
             },
             "post_job_actions": {
                 "HideDatasetActionoutput1": {
@@ -1330,8 +1330,8 @@
                 }
             ],
             "position": {
-                "left": 2181.5,
-                "top": 1556.4999389648438
+                "left": 2181,
+                "top": 1556
             },
             "post_job_actions": {
                 "HideDatasetActionoutFileName": {
@@ -1379,8 +1379,8 @@
                 }
             ],
             "position": {
-                "left": 2176.5,
-                "top": 1681.4999389648438
+                "left": 2176,
+                "top": 1681
             },
             "post_job_actions": {
                 "HideDatasetActionoutFileName": {
@@ -1428,8 +1428,8 @@
                 }
             ],
             "position": {
-                "left": 2748.5,
-                "top": 387.4998779296875
+                "left": 2748,
+                "top": 387
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -1479,8 +1479,8 @@
                 }
             ],
             "position": {
-                "left": 2735.5,
-                "top": 607.4998779296875
+                "left": 2735,
+                "top": 607
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -1528,8 +1528,8 @@
                 }
             ],
             "position": {
-                "left": 2714.616668701172,
-                "top": 1263.1165771484375
+                "left": 2714,
+                "top": 1263
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -1571,8 +1571,8 @@
                 }
             ],
             "position": {
-                "left": 2740.616668701172,
-                "top": 1409.1165771484375
+                "left": 2740,
+                "top": 1409
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -1614,8 +1614,8 @@
                 }
             ],
             "position": {
-                "left": 2970.25,
-                "top": 774.2498779296875
+                "left": 2970,
+                "top": 774
             },
             "post_job_actions": {
                 "HideDatasetActionoutfile": {
@@ -1668,7 +1668,7 @@
             ],
             "position": {
                 "left": 4327,
-                "top": 1212.4999389648438
+                "top": 1212
             },
             "post_job_actions": {
                 "ChangeDatatypeActionout_file1": {
@@ -1731,8 +1731,8 @@
                 }
             ],
             "position": {
-                "left": 2990.5,
-                "top": 1921.4999237060547
+                "left": 2990,
+                "top": 1921
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -1781,7 +1781,7 @@
             ],
             "position": {
                 "left": 2565,
-                "top": 1667.4999389648438
+                "top": 1667
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -1829,8 +1829,8 @@
                 }
             ],
             "position": {
-                "left": 2989.5,
-                "top": 402.4998779296875
+                "left": 2989,
+                "top": 402
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -1872,8 +1872,8 @@
                 }
             ],
             "position": {
-                "left": 2980.5,
-                "top": 618.4998779296875
+                "left": 2980,
+                "top": 618
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -1915,8 +1915,8 @@
                 }
             ],
             "position": {
-                "left": 2971.616668701172,
-                "top": 1265.1165771484375
+                "left": 2971,
+                "top": 1265
             },
             "post_job_actions": {
                 "HideDatasetActionsplit_output": {
@@ -1964,8 +1964,8 @@
                 }
             ],
             "position": {
-                "left": 3045.616668701172,
-                "top": 1381.1165771484375
+                "left": 3045,
+                "top": 1381
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -2007,8 +2007,8 @@
                 }
             ],
             "position": {
-                "left": 3077.616668701172,
-                "top": 1500.1165771484375
+                "left": 3077,
+                "top": 1500
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -2050,8 +2050,8 @@
                 }
             ],
             "position": {
-                "left": 3211.25,
-                "top": 779.7498779296875
+                "left": 3211,
+                "top": 779
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -2099,8 +2099,8 @@
                 }
             ],
             "position": {
-                "left": 3222.5,
-                "top": 1927.4999237060547
+                "left": 3222,
+                "top": 1927
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -2148,8 +2148,8 @@
                 }
             ],
             "position": {
-                "left": 2822.7666625976562,
-                "top": 1662.7666015625
+                "left": 2822,
+                "top": 1662
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -2198,7 +2198,7 @@
             ],
             "position": {
                 "left": 3233,
-                "top": 378.4998779296875
+                "top": 378
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -2254,7 +2254,7 @@
             ],
             "position": {
                 "left": 3246,
-                "top": 509.4998779296875
+                "top": 509
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -2317,8 +2317,8 @@
                 }
             ],
             "position": {
-                "left": 3491.61669921875,
-                "top": 1571.1165771484375
+                "left": 3491,
+                "top": 1571
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.8+galaxy1",
@@ -2366,8 +2366,8 @@
                 }
             ],
             "position": {
-                "left": 3565.5,
-                "top": 1312.4999389648438
+                "left": 3565,
+                "top": 1312
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -2415,8 +2415,8 @@
                 }
             ],
             "position": {
-                "left": 3560.5,
-                "top": 1421.4999389648438
+                "left": 3560,
+                "top": 1421
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -2464,8 +2464,8 @@
                 }
             ],
             "position": {
-                "left": 3066.5,
-                "top": 962.4998779296875
+                "left": 3066,
+                "top": 962
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -2513,8 +2513,8 @@
                 }
             ],
             "position": {
-                "left": 2987.5,
-                "top": 2096.4999237060547
+                "left": 2987,
+                "top": 2096
             },
             "post_job_actions": {
                 "HideDatasetActionsplit_output": {
@@ -2562,8 +2562,8 @@
                 }
             ],
             "position": {
-                "left": 3053.7666625976562,
-                "top": 1660.7666015625
+                "left": 3053,
+                "top": 1660
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -2606,7 +2606,7 @@
             ],
             "position": {
                 "left": 3280,
-                "top": 919.4998779296875
+                "top": 919
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -2654,8 +2654,8 @@
                 }
             ],
             "position": {
-                "left": 3219.5,
-                "top": 2074.4999237060547
+                "left": 3219,
+                "top": 2074
             },
             "post_job_actions": {
                 "HideDatasetActionoutfile": {
@@ -2703,8 +2703,8 @@
                 }
             ],
             "position": {
-                "left": 3057.5,
-                "top": 2219.4999237060547
+                "left": 3057,
+                "top": 2219
             },
             "post_job_actions": {
                 "HideDatasetActionoutfile": {
@@ -2753,7 +2753,7 @@
             ],
             "position": {
                 "left": 3292,
-                "top": 2220.4999237060547
+                "top": 2220
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -2802,7 +2802,7 @@
             ],
             "position": {
                 "left": 3507,
-                "top": 1827.4999237060547
+                "top": 1827
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -2849,7 +2849,7 @@
             ],
             "position": {
                 "left": 3687,
-                "top": 2186.4999237060547
+                "top": 2186
             },
             "post_job_actions": {
                 "ChangeDatatypeActionout_file1": {
@@ -2939,8 +2939,8 @@
                 }
             ],
             "position": {
-                "left": 3697.5,
-                "top": 846.4998779296875
+                "left": 3697,
+                "top": 846
             },
             "post_job_actions": {
                 "HideDatasetActionkaryotype_txt": {
@@ -3030,8 +3030,8 @@
                 }
             ],
             "position": {
-                "left": 4221.5,
-                "top": 389.4998779296875
+                "left": 4221,
+                "top": 389
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionreport": {

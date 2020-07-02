@@ -499,15 +499,17 @@
                 "top": 845
             },
             "post_job_actions": {
-                "HideDatasetActionassembly": {
-                    "action_arguments": {},
-                    "action_type": "HideDatasetAction",
-                    "output_name": "assembly"
-                },
                 "HideDatasetActionassembly_graph": {
                     "action_arguments": {},
                     "action_type": "HideDatasetAction",
                     "output_name": "assembly_graph"
+                },
+                "RenameDatasetActionassembly": {
+                    "action_arguments": {
+                        "newname": "All Assembled Contigs"
+                    },
+                    "action_type": "RenameDatasetAction",
+                    "output_name": "assembly"
                 }
             },
             "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.6.0",
@@ -521,7 +523,13 @@
             "tool_version": "0.4.6.0",
             "type": "tool",
             "uuid": "b6abf5c0-cf48-460f-9ce7-dc52a1e09540",
-            "workflow_outputs": []
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "assembly",
+                    "uuid": "de3f3bf1-ec4b-4c58-b180-43591d978387"
+                }
+            ]
         },
         "9": {
             "annotation": "",
@@ -530,22 +538,22 @@
                 "sequence": {
                     "id": 8,
                     "input_subworkflow_step_id": 0,
-                    "output_name": "assembly_graph"
+                    "output_name": "assembly"
                 }
             },
             "inputs": [],
             "label": null,
-            "name": "Module: Longest N Contigs",
+            "name": "Module: Longest 10 Contigs",
             "outputs": [],
             "position": {
-                "left": 1510,
-                "top": 751
+                "left": 1507,
+                "top": 776
             },
             "subworkflow": {
                 "a_galaxy_workflow": "true",
                 "annotation": "",
                 "format-version": "0.1",
-                "name": "Module: Longest N Contigs",
+                "name": "Module: Longest 10 Contigs",
                 "steps": {
                     "0": {
                         "annotation": "",
@@ -559,7 +567,7 @@
                         "outputs": [],
                         "position": {
                             "left": 200,
-                            "top": 350
+                            "top": 386
                         },
                         "tool_id": null,
                         "tool_state": "{}",
@@ -601,7 +609,7 @@
                         ],
                         "position": {
                             "left": 479,
-                            "top": 212
+                            "top": 248
                         },
                         "post_job_actions": {
                             "HideDatasetActionoutput": {
@@ -650,7 +658,7 @@
                         ],
                         "position": {
                             "left": 455,
-                            "top": 327
+                            "top": 363
                         },
                         "post_job_actions": {
                             "HideDatasetActionoutput": {
@@ -699,7 +707,7 @@
                         ],
                         "position": {
                             "left": 779,
-                            "top": 350
+                            "top": 386
                         },
                         "post_job_actions": {
                             "HideDatasetActionoutfile": {
@@ -735,10 +743,6 @@
                         "inputs": [
                             {
                                 "description": "runtime parameter for tool Select first",
-                                "name": "lineNum"
-                            },
-                            {
-                                "description": "runtime parameter for tool Select first",
                                 "name": "input"
                             }
                         ],
@@ -751,8 +755,8 @@
                             }
                         ],
                         "position": {
-                            "left": 1039,
-                            "top": 350
+                            "left": 1036,
+                            "top": 385
                         },
                         "post_job_actions": {
                             "HideDatasetActionout_file1": {
@@ -762,7 +766,7 @@
                             }
                         },
                         "tool_id": "Show beginning1",
-                        "tool_state": "{\"__page__\": null, \"lineNum\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
+                        "tool_state": "{\"__page__\": null, \"lineNum\": \"\\\"10\\\"\", \"__rerun_remap_job_id__\": null, \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
                         "tool_version": "1.0.0",
                         "type": "tool",
                         "uuid": "13607725-20d7-4520-8128-587e109d4eac",
@@ -802,8 +806,8 @@
                             }
                         ],
                         "position": {
-                            "left": 1300,
-                            "top": 237
+                            "left": 1294,
+                            "top": 272
                         },
                         "post_job_actions": {
                             "HideDatasetActionout_file1": {
@@ -846,7 +850,7 @@
                         ],
                         "position": {
                             "left": 1558,
-                            "top": 350
+                            "top": 387
                         },
                         "post_job_actions": {
                             "HideDatasetActionout_file1": {
@@ -889,7 +893,7 @@
                         ],
                         "position": {
                             "left": 1820,
-                            "top": 349
+                            "top": 385
                         },
                         "post_job_actions": {},
                         "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1",
@@ -913,11 +917,11 @@
                     }
                 },
                 "tags": "",
-                "uuid": "3ec46d54-c2e3-4f8e-a43d-c6a1dd92581e"
+                "uuid": "5b97da38-9664-451c-9d15-0880bc3f0f21"
             },
-            "tool_id": "5187056929754433",
+            "tool_id": "b473b386f41ec574",
             "type": "subworkflow",
-            "uuid": "50a3e9e3-38fe-470e-adcb-bbc867643dde",
+            "uuid": "6f0f12ff-413b-45bc-bad9-e9fde4915eb8",
             "workflow_outputs": []
         },
         "10": {
@@ -986,7 +990,7 @@
                     "name": "inputs"
                 }
             ],
-            "label": "Genome",
+            "label": "Contigs",
             "name": "Concatenate datasets",
             "outputs": [
                 {
@@ -995,13 +999,13 @@
                 }
             ],
             "position": {
-                "left": 1811,
-                "top": 745
+                "left": 1809,
+                "top": 742
             },
             "post_job_actions": {
                 "RenameDatasetActionout_file1": {
                     "action_arguments": {
-                        "newname": "Assembled Genome"
+                        "newname": "10 Longest Assembled Contigs"
                     },
                     "action_type": "RenameDatasetAction",
                     "output_name": "out_file1"
@@ -3424,5 +3428,5 @@
         }
     },
     "tags": [],
-    "uuid": "4dbd7f34-9bb0-4508-829a-ac0ce55b79bd"
+    "uuid": "8b51d70b-701a-4e65-b44b-eba89fc650d1"
 }
