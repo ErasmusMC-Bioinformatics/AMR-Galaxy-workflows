@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true",
     "annotation": "",
     "format-version": "0.1",
-    "name": "Flye v1.1 + Report v2.5",
+    "name": "Unicycler + Short Read v1.1 + Report v2.6",
     "steps": {
         "0": {
             "annotation": "",
@@ -312,7 +312,7 @@
             "post_job_actions": {
                 "ChangeDatatypeActionfastq_out": {
                     "action_arguments": {
-                        "newtype": "fastq"
+                        "newtype": "fastqsanger"
                     },
                     "action_type": "ChangeDatatypeAction",
                     "output_name": "fastq_out"
@@ -459,109 +459,75 @@
         },
         "8": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.6",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.6.0",
             "errors": null,
             "id": 8,
             "input_connections": {
-                "inputs": {
+                "long": {
                     "id": 6,
                     "output_name": "fastq_out"
                 }
             },
             "inputs": [
                 {
-                    "description": "runtime parameter for tool Flye assembly",
-                    "name": "inputs"
+                    "description": "runtime parameter for tool Create assemblies with Unicycler",
+                    "name": "lr_align"
                 },
                 {
-                    "description": "runtime parameter for tool Flye assembly",
-                    "name": "plasmids"
+                    "description": "runtime parameter for tool Create assemblies with Unicycler",
+                    "name": "long"
                 },
                 {
-                    "description": "runtime parameter for tool Flye assembly",
-                    "name": "meta"
+                    "description": "runtime parameter for tool Create assemblies with Unicycler",
+                    "name": "rotation"
                 }
             ],
             "label": null,
-            "name": "Flye assembly",
+            "name": "Create assemblies with Unicycler",
             "outputs": [
                 {
-                    "name": "consensus",
-                    "type": "fasta"
-                },
-                {
                     "name": "assembly_graph",
-                    "type": "graph_dot"
-                },
-                {
-                    "name": "assembly_gfa",
-                    "type": "txt"
-                },
-                {
-                    "name": "assembly_info",
                     "type": "tabular"
                 },
                 {
-                    "name": "flye_log",
-                    "type": "txt"
+                    "name": "assembly",
+                    "type": "fasta"
                 }
             ],
             "position": {
-                "left": 1225,
-                "top": 831
+                "left": 1220,
+                "top": 845
             },
             "post_job_actions": {
-                "ChangeDatatypeActionassembly_gfa": {
-                    "action_arguments": {
-                        "newtype": "tabular"
-                    },
-                    "action_type": "ChangeDatatypeAction",
-                    "output_name": "assembly_gfa"
-                },
-                "HideDatasetActionassembly_gfa": {
-                    "action_arguments": {},
-                    "action_type": "HideDatasetAction",
-                    "output_name": "assembly_gfa"
-                },
                 "HideDatasetActionassembly_graph": {
                     "action_arguments": {},
                     "action_type": "HideDatasetAction",
                     "output_name": "assembly_graph"
                 },
-                "HideDatasetActionassembly_info": {
-                    "action_arguments": {},
-                    "action_type": "HideDatasetAction",
-                    "output_name": "assembly_info"
-                },
-                "HideDatasetActionflye_log": {
-                    "action_arguments": {},
-                    "action_type": "HideDatasetAction",
-                    "output_name": "flye_log"
-                },
-                "RenameDatasetActionconsensus": {
+                "RenameDatasetActionassembly": {
                     "action_arguments": {
-                        "newname": "All assembled contigs"
+                        "newname": "All Assembled Contigs"
                     },
                     "action_type": "RenameDatasetAction",
-                    "output_name": "consensus"
+                    "output_name": "assembly"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.6",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.6.0",
             "tool_shed_repository": {
-                "changeset_revision": "3ee0ef312022",
-                "name": "flye",
-                "owner": "bgruening",
+                "changeset_revision": "23300b42ca18",
+                "name": "unicycler",
+                "owner": "iuc",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"inputs\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"g\": \"\\\"5m\\\"\", \"__page__\": null, \"i\": \"\\\"1\\\"\", \"__rerun_remap_job_id__\": null, \"m\": \"\\\"\\\"\", \"no_trestle\": \"\\\"false\\\"\", \"plasmids\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"meta\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"mode\": \"\\\"--nano-raw\\\"\", \"asm\": \"\\\"\\\"\"}",
-            "tool_version": "2.6",
+            "tool_state": "{\"linear_seqs\": \"\\\"0\\\"\", \"spades\": \"{\\\"no_correct\\\": \\\"false\\\", \\\"kmer_count\\\": \\\"10\\\", \\\"depth_filter\\\": \\\"0.25\\\", \\\"kmers\\\": \\\"\\\", \\\"min_kmer_frac\\\": \\\"0.2\\\", \\\"max_kmer_frac\\\": \\\"0.95\\\"}\", \"graph_clean\": \"{\\\"min_dead_end_size\\\": \\\"1000\\\", \\\"min_component_size\\\": \\\"1000\\\"}\", \"__page__\": null, \"min_anchor_seg_len\": \"\\\"\\\"\", \"__rerun_remap_job_id__\": null, \"lr_align\": \"{\\\"low_score\\\": \\\"\\\", \\\"scores\\\": \\\"3,-6,-5,-2\\\", \\\"contamination\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}}\", \"long\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"paired_unpaired\": \"{\\\"__current_case__\\\": 3, \\\"fastq_input_selector\\\": \\\"none\\\"}\", \"min_fasta_length\": \"\\\"100\\\"\", \"mode\": \"\\\"normal\\\"\", \"rotation\": \"{\\\"start_genes\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"start_gene_cov\\\": \\\"95.0\\\", \\\"no_rotate\\\": \\\"false\\\", \\\"start_gene_id\\\": \\\"90.0\\\"}\", \"pilon\": \"{\\\"no_pilon\\\": \\\"false\\\", \\\"min_polish_size\\\": \\\"1000\\\"}\"}",
+            "tool_version": "0.4.6.0",
             "type": "tool",
-            "uuid": "d549f3ff-eece-4346-9c12-ad2913bdbf00",
+            "uuid": "b6abf5c0-cf48-460f-9ce7-dc52a1e09540",
             "workflow_outputs": [
                 {
                     "label": null,
-                    "output_name": "consensus",
-                    "uuid": "a55996a6-7fea-491a-a0f1-8ac78c9b7336"
+                    "output_name": "assembly",
+                    "uuid": "de3f3bf1-ec4b-4c58-b180-43591d978387"
                 }
             ]
         },
@@ -572,7 +538,7 @@
                 "sequence": {
                     "id": 8,
                     "input_subworkflow_step_id": 0,
-                    "output_name": "consensus"
+                    "output_name": "assembly"
                 }
             },
             "inputs": [],
@@ -659,7 +625,7 @@
                             "owner": "devteam",
                             "tool_shed": "toolshed.g2.bx.psu.edu"
                         },
-                        "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"keep_first\": \"\\\"0\\\"\", \"__rerun_remap_job_id__\": null, \"descr_columns\": \"\\\"1\\\"\", \"__page__\": null}",
+                        "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"keep_first\": \"\\\"0\\\"\", \"__rerun_remap_job_id__\": null, \"descr_columns\": \"\\\"2\\\"\", \"__page__\": null}",
                         "tool_version": "1.1.1",
                         "type": "tool",
                         "uuid": "f5ad38c6-36b4-4de2-9b6b-bb3d96d364b9",
@@ -894,7 +860,7 @@
                             }
                         },
                         "tool_id": "Cut1",
-                        "tool_state": "{\"columnList\": \"\\\"c1,c2\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"delimiter\": \"\\\"T\\\"\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
+                        "tool_state": "{\"columnList\": \"\\\"c1,c3\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"delimiter\": \"\\\"T\\\"\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
                         "tool_version": "1.0.2",
                         "type": "tool",
                         "uuid": "74c85b76-ed81-46c9-9167-b6e86413ee8b",
@@ -953,9 +919,9 @@
                 "tags": "",
                 "uuid": "5b97da38-9664-451c-9d15-0880bc3f0f21"
             },
-            "tool_id": "fe04f48785fc1654",
+            "tool_id": "22be570b4f9b3103",
             "type": "subworkflow",
-            "uuid": "2b7848fc-502d-418f-bab9-d89c5392d728",
+            "uuid": "6f0f12ff-413b-45bc-bad9-e9fde4915eb8",
             "workflow_outputs": []
         },
         "10": {
@@ -966,7 +932,7 @@
             "input_connections": {
                 "input_file": {
                     "id": 8,
-                    "output_name": "assembly_gfa"
+                    "output_name": "assembly_graph"
                 }
             },
             "inputs": [
@@ -2681,7 +2647,7 @@
             "tool_state": "{\"__page__\": null, \"header_lines_conditional\": \"{\\\"header_lines_select\\\": \\\"no\\\", \\\"__current_case__\\\": 0}\", \"__rerun_remap_job_id__\": null, \"cond\": \"\\\"log(c4)\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"round\": \"\\\"no\\\"\", \"avoid_scientific_notation\": \"\\\"no\\\"\"}",
             "tool_version": "1.3.0",
             "type": "tool",
-            "uuid": "275940b8-ac58-46c9-8ab2-df3ab9ac8fe7",
+            "uuid": "2be377ff-02ae-4432-b723-f0eb390ad37a",
             "workflow_outputs": []
         },
         "40": {
@@ -2977,7 +2943,7 @@
             "tool_state": "{\"columnList\": \"\\\"c1,c2,c3,c5\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"delimiter\": \"\\\"T\\\"\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
             "tool_version": "1.0.2",
             "type": "tool",
-            "uuid": "1814580d-a4bc-4ece-823a-dc232a6e96c5",
+            "uuid": "fe8c38bb-ac09-465f-9ad6-ef8657cec83c",
             "workflow_outputs": []
         },
         "46": {
@@ -3462,5 +3428,5 @@
         }
     },
     "tags": [],
-    "uuid": "589b2cc6-9931-4fc2-a20a-46bb35813954"
+    "uuid": "8b51d70b-701a-4e65-b44b-eba89fc650d1"
 }

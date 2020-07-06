@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true",
     "annotation": "",
     "format-version": "0.1",
-    "name": "Flye v1.1 + Report v2.5",
+    "name": "Flye v1.1 + Report v2.6",
     "steps": {
         "0": {
             "annotation": "",
@@ -659,7 +659,7 @@
                             "owner": "devteam",
                             "tool_shed": "toolshed.g2.bx.psu.edu"
                         },
-                        "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"keep_first\": \"\\\"0\\\"\", \"__rerun_remap_job_id__\": null, \"descr_columns\": \"\\\"1\\\"\", \"__page__\": null}",
+                        "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"keep_first\": \"\\\"0\\\"\", \"__rerun_remap_job_id__\": null, \"descr_columns\": \"\\\"2\\\"\", \"__page__\": null}",
                         "tool_version": "1.1.1",
                         "type": "tool",
                         "uuid": "f5ad38c6-36b4-4de2-9b6b-bb3d96d364b9",
@@ -894,7 +894,7 @@
                             }
                         },
                         "tool_id": "Cut1",
-                        "tool_state": "{\"columnList\": \"\\\"c1,c2\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"delimiter\": \"\\\"T\\\"\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
+                        "tool_state": "{\"columnList\": \"\\\"c1,c3\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"delimiter\": \"\\\"T\\\"\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
                         "tool_version": "1.0.2",
                         "type": "tool",
                         "uuid": "74c85b76-ed81-46c9-9167-b6e86413ee8b",

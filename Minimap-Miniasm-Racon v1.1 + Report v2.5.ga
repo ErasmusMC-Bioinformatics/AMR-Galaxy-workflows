@@ -791,7 +791,7 @@
                 "tags": "",
                 "uuid": "b6440fed-d04e-44e9-a7ce-0d1ea53ef8f4"
             },
-            "tool_id": "2316171730ea50cf",
+            "tool_id": "2243d5fdbc69d948",
             "type": "subworkflow",
             "uuid": "7228889a-2f8d-4f27-bc62-9dd2546fda56",
             "workflow_outputs": [
@@ -1195,7 +1195,7 @@
                 "tags": "",
                 "uuid": "5b97da38-9664-451c-9d15-0880bc3f0f21"
             },
-            "tool_id": "b473b386f41ec574",
+            "tool_id": "230671364dd2d715",
             "type": "subworkflow",
             "uuid": "9a3f1f48-9c38-4bfb-8202-424089648a08",
             "workflow_outputs": []

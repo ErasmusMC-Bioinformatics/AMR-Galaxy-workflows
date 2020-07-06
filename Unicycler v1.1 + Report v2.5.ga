@@ -919,7 +919,7 @@
                 "tags": "",
                 "uuid": "5b97da38-9664-451c-9d15-0880bc3f0f21"
             },
-            "tool_id": "b473b386f41ec574",
+            "tool_id": "22be570b4f9b3103",
             "type": "subworkflow",
             "uuid": "6f0f12ff-413b-45bc-bad9-e9fde4915eb8",
             "workflow_outputs": []
