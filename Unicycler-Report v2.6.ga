@@ -136,7 +136,7 @@
             ],
             "position": {
                 "left": 295,
-                "top": 715.5
+                "top": 715
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -552,8 +552,8 @@
                 }
             ],
             "position": {
-                "left": 1069.933349609375,
-                "top": 912.2000122070312
+                "left": 1069,
+                "top": 912
             },
             "post_job_actions": {
                 "HideDatasetActionassembly_graph": {
@@ -596,8 +596,8 @@
             "name": "Module: Longest 10 Contigs",
             "outputs": [],
             "position": {
-                "left": 1362.433349609375,
-                "top": 891.2000122070312
+                "left": 1362,
+                "top": 891
             },
             "subworkflow": {
                 "a_galaxy_workflow": "true",
@@ -617,7 +617,7 @@
                         "outputs": [],
                         "position": {
                             "left": 200,
-                            "top": 431.566650390625
+                            "top": 431
                         },
                         "tool_id": null,
                         "tool_state": "{}",
@@ -659,7 +659,7 @@
                         ],
                         "position": {
                             "left": 454,
-                            "top": 286.566650390625
+                            "top": 286
                         },
                         "post_job_actions": {
                             "HideDatasetActionoutput": {
@@ -708,7 +708,7 @@
                         ],
                         "position": {
                             "left": 455,
-                            "top": 408.566650390625
+                            "top": 408
                         },
                         "post_job_actions": {
                             "HideDatasetActionoutput": {
@@ -757,7 +757,7 @@
                         ],
                         "position": {
                             "left": 779,
-                            "top": 431.566650390625
+                            "top": 431
                         },
                         "post_job_actions": {
                             "HideDatasetActionoutfile": {
@@ -806,7 +806,7 @@
                         ],
                         "position": {
                             "left": 1036,
-                            "top": 430.566650390625
+                            "top": 430
                         },
                         "post_job_actions": {
                             "HideDatasetActionout_file1": {
@@ -857,7 +857,7 @@
                         ],
                         "position": {
                             "left": 1286,
-                            "top": 313.566650390625
+                            "top": 313
                         },
                         "post_job_actions": {
                             "HideDatasetActionout_file1": {
@@ -900,7 +900,7 @@
                         ],
                         "position": {
                             "left": 1558,
-                            "top": 432.566650390625
+                            "top": 432
                         },
                         "post_job_actions": {
                             "HideDatasetActionout_file1": {
@@ -943,7 +943,7 @@
                         ],
                         "position": {
                             "left": 1820,
-                            "top": 431.566650390625
+                            "top": 431
                         },
                         "post_job_actions": {},
                         "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1",
@@ -1064,7 +1064,7 @@
             ],
             "position": {
                 "left": 1629,
-                "top": 728.5
+                "top": 728
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -1751,8 +1751,8 @@
                 }
             ],
             "position": {
-                "left": 2753.833251953125,
-                "top": 327.1666717529297
+                "left": 2753,
+                "top": 327
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -2244,8 +2244,8 @@
                 }
             ],
             "position": {
-                "left": 2983.833251953125,
-                "top": 322.1666717529297
+                "left": 2983,
+                "top": 322
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {

@@ -131,7 +131,7 @@
             ],
             "position": {
                 "left": 487,
-                "top": 590.5
+                "top": 590
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
