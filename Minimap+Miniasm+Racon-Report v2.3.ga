@@ -356,6 +356,13 @@
                     "action_arguments": {},
                     "action_type": "HideDatasetAction",
                     "output_name": "fastq_out_unpaired"
+                },
+                "TagDatasetActionfastq_out": {
+                    "action_arguments": {
+                        "tags": "name:miniasm"
+                    },
+                    "action_type": "TagDatasetAction",
+                    "output_name": "fastq_out"
                 }
             },
             "tool_id": "toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.36.5",
