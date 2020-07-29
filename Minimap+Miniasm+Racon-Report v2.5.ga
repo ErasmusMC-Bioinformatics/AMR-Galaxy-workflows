@@ -15,8 +15,8 @@
             "name": "Input dataset collection",
             "outputs": [],
             "position": {
-                "left": 224,
-                "top": 718
+                "left": 200,
+                "top": 731
             },
             "tool_id": null,
             "tool_state": "{\"collection_type\": \"list\"}",
