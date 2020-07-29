@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true",
     "annotation": "",
     "format-version": "0.1",
-    "name": "Flye/Report v2.8",
+    "name": "Minimap+Minism+Racon/Report v2.8",
     "steps": {
         "0": {
             "annotation": "",
@@ -22,12 +22,12 @@
             "tool_state": "{\"collection_type\": \"list\"}",
             "tool_version": null,
             "type": "data_collection_input",
-            "uuid": "6ff25fd9-b5a3-4615-87a2-f2b02df87c60",
+            "uuid": "828a7bf2-fe37-438d-9a8f-62691b0facec",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "output",
-                    "uuid": "45d277bf-93bb-4e1b-9173-6deb100d96d9"
+                    "uuid": "4f66ce6d-8a5a-48ce-98c7-be853e9a197e"
                 }
             ]
         },
@@ -65,9 +65,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"token_set\": \"[{\\\"__index__\\\": 0, \\\"line\\\": \\\"Query Seq-id (ID of your sequence)TABSubject Seq-id (ID of the database hit)TABPercent identical matchesTABAlignment lengthTABStart of alignment in queryTABEnd of alignment in queryTABExpectation value (E-value)TABAll subject IDsTABAll subject title(s)TABSubject GITABSubject accessionTABSubject TitleTABSequence LengthTABCustomCovScore\\\", \\\"repeat_select\\\": {\\\"repeat_select_opts\\\": \\\"user\\\", \\\"__current_case__\\\": 0, \\\"times\\\": \\\"1\\\"}}]\"}",
-            "tool_version": "1.1.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "2696e216-8a23-436a-971e-f06fc595dd5e",
+            "uuid": "2fce34e4-a8e7-47b2-9fcc-1851826a27c4",
             "workflow_outputs": []
         },
         "2": {
@@ -104,9 +104,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"token_set\": \"[{\\\"__index__\\\": 0, \\\"line\\\": \\\"ContigTABLength\\\", \\\"repeat_select\\\": {\\\"repeat_select_opts\\\": \\\"user\\\", \\\"__current_case__\\\": 0, \\\"times\\\": \\\"1\\\"}}]\"}",
-            "tool_version": "1.1.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "c8effaa3-cdce-4245-a374-330ecc12bc6d",
+            "uuid": "c868859e-f0cd-4551-8153-0ddfe706ae4d",
             "workflow_outputs": []
         },
         "3": {
@@ -147,9 +147,9 @@
             },
             "tool_id": "__NAMETAG_COLLECTION__",
             "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
-            "tool_version": "1.0.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "45dd7f22-51a8-41b4-8d8d-48496dea59dd",
+            "uuid": "11cb7955-f6e5-4200-a762-a241209811b5",
             "workflow_outputs": []
         },
         "4": {
@@ -196,9 +196,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"checks\": \"[{\\\"__index__\\\": 0, \\\"replacement\\\": \\\"\\\\\\\\t\\\", \\\"pattern\\\": \\\"TAB\\\"}]\", \"__page__\": null}",
-            "tool_version": "1.0.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "0edbc06e-1192-444a-a4cd-d78db6ef5aee",
+            "uuid": "876471ba-cb5d-42ae-8cf8-92cd169cdae8",
             "workflow_outputs": []
         },
         "5": {
@@ -245,9 +245,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"checks\": \"[{\\\"__index__\\\": 0, \\\"replacement\\\": \\\"\\\\\\\\t\\\", \\\"pattern\\\": \\\"TAB\\\"}]\", \"__page__\": null}",
-            "tool_version": "1.0.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "344e6fe2-7337-419b-ad33-0130938e7603",
+            "uuid": "effe8f15-44ea-489a-9912-e9140572a109",
             "workflow_outputs": []
         },
         "6": {
@@ -294,9 +294,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"inputs\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"queries\": \"[]\"}",
-            "tool_version": "0.1.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "0bb1de15-5abe-4341-a5f7-ff81b1d4fa40",
+            "uuid": "c8136328-7cbb-4d8f-9f25-bac47e845480",
             "workflow_outputs": []
         },
         "7": {
@@ -349,7 +349,7 @@
                 }
             ],
             "position": {
-                "left": 907,
+                "left": 908,
                 "top": 769
             },
             "post_job_actions": {
@@ -402,7 +402,7 @@
                 },
                 "TagDatasetActionfastq_out": {
                     "action_arguments": {
-                        "tags": "name:flye"
+                        "tags": "name:miniasm"
                     },
                     "action_type": "TagDatasetAction",
                     "output_name": "fastq_out"
@@ -416,9 +416,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"operations\": \"[{\\\"__index__\\\": 0, \\\"operation\\\": {\\\"name\\\": \\\"MINLEN\\\", \\\"__current_case__\\\": 1, \\\"minlen\\\": \\\"1\\\"}}]\", \"__page__\": null, \"__rerun_remap_job_id__\": null, \"readtype\": \"{\\\"single_or_paired\\\": \\\"se\\\", \\\"fastq_in\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"__current_case__\\\": 0}\", \"illuminaclip\": \"{\\\"do_illuminaclip\\\": \\\"false\\\", \\\"__current_case__\\\": 1}\"}",
-            "tool_version": "0.36.5",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "4d5e9412-2987-4108-bfb9-23f16c7f20f7",
+            "uuid": "70cfc7b6-5c1d-46a1-89e7-783a4444dc55",
             "workflow_outputs": []
         },
         "8": {
@@ -503,131 +503,355 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"filter\": \"{\\\"downsample\\\": \\\"\\\", \\\"minlength\\\": \\\"\\\", \\\"loglength\\\": \\\"false\\\", \\\"readtype\\\": null, \\\"percentqual\\\": \\\"false\\\", \\\"barcoded\\\": \\\"false\\\", \\\"drop_outliers\\\": \\\"false\\\", \\\"minqual\\\": \\\"\\\", \\\"maxlength\\\": \\\"\\\", \\\"alength\\\": \\\"false\\\"}\", \"__page__\": null, \"reads\": \"{\\\"files\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"type\\\": \\\"fastq\\\", \\\"__current_case__\\\": 0}\", \"__rerun_remap_job_id__\": null, \"customization\": \"{\\\"color\\\": null, \\\"plots\\\": null, \\\"noN50\\\": \\\"false\\\", \\\"N50\\\": \\\"false\\\", \\\"format\\\": \\\"png\\\"}\"}",
-            "tool_version": "1.13.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "83cfe773-feef-4f10-b060-af1234f0c374",
+            "uuid": "5e5fed0c-4cfc-4177-874d-9e25962e469e",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "output_html",
-                    "uuid": "f6ba013f-a149-4c7b-9855-23ba5e89b608"
+                    "uuid": "6a55e329-02bf-4af0-aeae-b0a2dda6c792"
                 }
             ]
         },
         "9": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.6",
-            "errors": null,
             "id": 9,
             "input_connections": {
-                "inputs": {
+                "fastq": {
                     "id": 7,
+                    "input_subworkflow_step_id": 0,
                     "output_name": "fastq_out"
                 }
             },
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool Flye assembly",
-                    "name": "inputs"
-                },
-                {
-                    "description": "runtime parameter for tool Flye assembly",
-                    "name": "plasmids"
-                },
-                {
-                    "description": "runtime parameter for tool Flye assembly",
-                    "name": "meta"
-                }
-            ],
+            "inputs": [],
             "label": null,
-            "name": "Flye assembly",
-            "outputs": [
-                {
-                    "name": "consensus",
-                    "type": "fasta"
-                },
-                {
-                    "name": "assembly_graph",
-                    "type": "graph_dot"
-                },
-                {
-                    "name": "assembly_gfa",
-                    "type": "txt"
-                },
-                {
-                    "name": "assembly_info",
-                    "type": "tabular"
-                },
-                {
-                    "name": "flye_log",
-                    "type": "txt"
-                }
-            ],
+            "name": "Minimap/Miniasm/Racon Module",
+            "outputs": [],
             "position": {
-                "left": 1208.433349609375,
-                "top": 955.1500244140625
+                "left": 1199,
+                "top": 1003.5
             },
-            "post_job_actions": {
-                "ChangeDatatypeActionassembly_gfa": {
-                    "action_arguments": {
-                        "newtype": "tabular"
+            "subworkflow": {
+                "a_galaxy_workflow": "true",
+                "annotation": "",
+                "format-version": "0.1",
+                "name": "Minimap/Miniasm/Racon Module",
+                "steps": {
+                    "0": {
+                        "annotation": "",
+                        "content_id": null,
+                        "errors": null,
+                        "id": 0,
+                        "input_connections": {},
+                        "inputs": [],
+                        "label": "fastq",
+                        "name": "Input dataset",
+                        "outputs": [],
+                        "position": {
+                            "left": 200,
+                            "top": 279.8333282470703
+                        },
+                        "tool_id": null,
+                        "tool_state": "{}",
+                        "tool_version": null,
+                        "type": "data_input",
+                        "uuid": "2d92e407-32b2-4f6c-9d8b-c06f79f3fc9f",
+                        "workflow_outputs": []
                     },
-                    "action_type": "ChangeDatatypeAction",
-                    "output_name": "assembly_gfa"
-                },
-                "HideDatasetActionassembly_gfa": {
-                    "action_arguments": {},
-                    "action_type": "HideDatasetAction",
-                    "output_name": "assembly_gfa"
-                },
-                "HideDatasetActionassembly_graph": {
-                    "action_arguments": {},
-                    "action_type": "HideDatasetAction",
-                    "output_name": "assembly_graph"
-                },
-                "HideDatasetActionassembly_info": {
-                    "action_arguments": {},
-                    "action_type": "HideDatasetAction",
-                    "output_name": "assembly_info"
-                },
-                "HideDatasetActionflye_log": {
-                    "action_arguments": {},
-                    "action_type": "HideDatasetAction",
-                    "output_name": "flye_log"
-                },
-                "TagDatasetActionassembly_gfa": {
-                    "action_arguments": {
-                        "tags": "flye"
+                    "1": {
+                        "annotation": "",
+                        "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.12",
+                        "errors": null,
+                        "id": 1,
+                        "input_connections": {
+                            "fastq_input|fastq_input1": {
+                                "id": 0,
+                                "output_name": "output"
+                            },
+                            "reference_source|ref_file": {
+                                "id": 0,
+                                "output_name": "output"
+                            }
+                        },
+                        "inputs": [
+                            {
+                                "description": "runtime parameter for tool Map with minimap2",
+                                "name": "fastq_input"
+                            },
+                            {
+                                "description": "runtime parameter for tool Map with minimap2",
+                                "name": "reference_source"
+                            }
+                        ],
+                        "label": null,
+                        "name": "Map with minimap2",
+                        "outputs": [
+                            {
+                                "name": "alignment_output",
+                                "type": "bam"
+                            }
+                        ],
+                        "position": {
+                            "left": 451.66668701171875,
+                            "top": 431.5
+                        },
+                        "post_job_actions": {
+                            "HideDatasetActionalignment_output": {
+                                "action_arguments": {},
+                                "action_type": "HideDatasetAction",
+                                "output_name": "alignment_output"
+                            }
+                        },
+                        "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.12",
+                        "tool_shed_repository": {
+                            "changeset_revision": "17e61517c166",
+                            "name": "minimap2",
+                            "owner": "iuc",
+                            "tool_shed": "toolshed.g2.bx.psu.edu"
+                        },
+                        "tool_state": "{\"alignment_options\": \"{\\\"A\\\": \\\"\\\", \\\"B\\\": \\\"\\\", \\\"E\\\": \\\"\\\", \\\"-O2\\\": \\\"\\\", \\\"O\\\": \\\"\\\", \\\"s\\\": \\\"\\\", \\\"u\\\": null, \\\"z\\\": \\\"\\\", \\\"E2\\\": \\\"\\\"}\", \"analysis_type_selector\": \"\\\"ava-ont\\\"\", \"__page__\": null, \"__rerun_remap_job_id__\": null, \"io_options\": \"{\\\"eqx\\\": \\\"false\\\", \\\"output_format\\\": \\\"paf\\\", \\\"L\\\": \\\"false\\\", \\\"Q\\\": \\\"false\\\", \\\"Y\\\": \\\"false\\\", \\\"cs\\\": null, \\\"K\\\": \\\"\\\"}\", \"mapping_options\": \"{\\\"g\\\": \\\"\\\", \\\"G\\\": \\\"\\\", \\\"F\\\": \\\"\\\", \\\"min_occ_floor\\\": \\\"\\\", \\\"f\\\": \\\"\\\", \\\"m\\\": \\\"\\\", \\\"n\\\": \\\"\\\", \\\"p\\\": \\\"\\\", \\\"r\\\": \\\"\\\", \\\"X\\\": \\\"false\\\", \\\"N\\\": \\\"\\\"}\", \"fastq_input\": \"{\\\"__current_case__\\\": 1, \\\"fastq_input_selector\\\": \\\"single\\\", \\\"fastq_input1\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}}\", \"reference_source\": \"{\\\"ref_file\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"reference_source_selector\\\": \\\"history\\\", \\\"__current_case__\\\": 1}\", \"indexing_options\": \"{\\\"I\\\": \\\"\\\", \\\"H\\\": \\\"false\\\", \\\"k\\\": \\\"\\\", \\\"w\\\": \\\"\\\"}\", \"chromInfo\": \"\\\"/home/willlem/NanoGalaxy/galaxy/tool-data/shared/ucsc/chrom/?.len\\\"\"}",
+                        "tool_version": null,
+                        "type": "tool",
+                        "uuid": "b4891095-6a34-48dd-bcf1-075da02e7cf2",
+                        "workflow_outputs": []
                     },
-                    "action_type": "TagDatasetAction",
-                    "output_name": "assembly_gfa"
-                },
-                "TagDatasetActionconsensus": {
-                    "action_arguments": {
-                        "tags": "flye"
+                    "2": {
+                        "annotation": "",
+                        "content_id": "toolshed.g2.bx.psu.edu/repos/erasmus-medical-center/miniasm/miniasm/0.2.0",
+                        "errors": null,
+                        "id": 2,
+                        "input_connections": {
+                            "paf": {
+                                "id": 1,
+                                "output_name": "alignment_output"
+                            },
+                            "readFile": {
+                                "id": 0,
+                                "output_name": "output"
+                            }
+                        },
+                        "inputs": [
+                            {
+                                "description": "runtime parameter for tool miniasm",
+                                "name": "readFile"
+                            },
+                            {
+                                "description": "runtime parameter for tool miniasm",
+                                "name": "paf"
+                            }
+                        ],
+                        "label": null,
+                        "name": "miniasm",
+                        "outputs": [
+                            {
+                                "name": "gfa",
+                                "type": "tabular"
+                            }
+                        ],
+                        "position": {
+                            "left": 818.6666870117188,
+                            "top": 331.5
+                        },
+                        "post_job_actions": {},
+                        "tool_id": "toolshed.g2.bx.psu.edu/repos/erasmus-medical-center/miniasm/miniasm/0.2.0",
+                        "tool_shed_repository": {
+                            "changeset_revision": "b3ec520dc2ed",
+                            "name": "miniasm",
+                            "owner": "erasmus-medical-center",
+                            "tool_shed": "toolshed.g2.bx.psu.edu"
+                        },
+                        "tool_state": "{\"__page__\": null, \"graph\": \"{\\\"maxGapDiff\\\": \\\"1000\\\", \\\"finalDropRatio\\\": \\\"0.8\\\", \\\"maxBubDist\\\": \\\"50000\\\", \\\"nRounds\\\": \\\"3\\\", \\\"minUtgSize\\\": \\\"4\\\"}\", \"__rerun_remap_job_id__\": null, \"overlapping\": \"{\\\"intThres\\\": \\\"0.08\\\", \\\"minOvlp\\\": \\\"1000\\\", \\\"maxHang\\\": \\\"1000\\\"}\", \"readFile\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"paf\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"preselection\": \"{\\\"minSpan\\\": \\\"1000\\\", \\\"minIden\\\": \\\"0.05\\\", \\\"minCov\\\": \\\"3\\\", \\\"minMatch\\\": \\\"100\\\"}\", \"chromInfo\": \"\\\"/home/willlem/NanoGalaxy/galaxy/tool-data/shared/ucsc/chrom/?.len\\\"\"}",
+                        "tool_version": null,
+                        "type": "tool",
+                        "uuid": "729bcf3d-7334-4d94-8792-3677ebc1b2a0",
+                        "workflow_outputs": [
+                            {
+                                "label": "graph",
+                                "output_name": "gfa",
+                                "uuid": "f841b8bc-9841-43f4-ab0f-95930d95b68a"
+                            }
+                        ]
                     },
-                    "action_type": "TagDatasetAction",
-                    "output_name": "consensus"
-                }
+                    "3": {
+                        "annotation": "",
+                        "content_id": "toolshed.g2.bx.psu.edu/repos/erasmus-medical-center/gfa_to_fa/gfa_to_fa/0.1.0",
+                        "errors": null,
+                        "id": 3,
+                        "input_connections": {
+                            "in_gfa": {
+                                "id": 2,
+                                "output_name": "gfa"
+                            }
+                        },
+                        "inputs": [
+                            {
+                                "description": "runtime parameter for tool GFA to Fasta",
+                                "name": "in_gfa"
+                            }
+                        ],
+                        "label": null,
+                        "name": "GFA to Fasta",
+                        "outputs": [
+                            {
+                                "name": "out_fa",
+                                "type": "fasta"
+                            }
+                        ],
+                        "position": {
+                            "left": 1039.6666870117188,
+                            "top": 520.5
+                        },
+                        "post_job_actions": {
+                            "HideDatasetActionout_fa": {
+                                "action_arguments": {},
+                                "action_type": "HideDatasetAction",
+                                "output_name": "out_fa"
+                            }
+                        },
+                        "tool_id": "toolshed.g2.bx.psu.edu/repos/erasmus-medical-center/gfa_to_fa/gfa_to_fa/0.1.0",
+                        "tool_shed_repository": {
+                            "changeset_revision": "a54fa2c9503f",
+                            "name": "gfa_to_fa",
+                            "owner": "erasmus-medical-center",
+                            "tool_shed": "toolshed.g2.bx.psu.edu"
+                        },
+                        "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/willlem/NanoGalaxy/galaxy/tool-data/shared/ucsc/chrom/?.len\\\"\", \"in_gfa\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
+                        "tool_version": null,
+                        "type": "tool",
+                        "uuid": "d6c7375a-89bb-4590-8dac-e6daa2543da9",
+                        "workflow_outputs": []
+                    },
+                    "4": {
+                        "annotation": "",
+                        "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.12",
+                        "errors": null,
+                        "id": 4,
+                        "input_connections": {
+                            "fastq_input|fastq_input1": {
+                                "id": 0,
+                                "output_name": "output"
+                            },
+                            "reference_source|ref_file": {
+                                "id": 3,
+                                "output_name": "out_fa"
+                            }
+                        },
+                        "inputs": [
+                            {
+                                "description": "runtime parameter for tool Map with minimap2",
+                                "name": "fastq_input"
+                            },
+                            {
+                                "description": "runtime parameter for tool Map with minimap2",
+                                "name": "reference_source"
+                            }
+                        ],
+                        "label": null,
+                        "name": "Map with minimap2",
+                        "outputs": [
+                            {
+                                "name": "alignment_output",
+                                "type": "bam"
+                            }
+                        ],
+                        "position": {
+                            "left": 1148.6666870117188,
+                            "top": 251.5
+                        },
+                        "post_job_actions": {
+                            "HideDatasetActionalignment_output": {
+                                "action_arguments": {},
+                                "action_type": "HideDatasetAction",
+                                "output_name": "alignment_output"
+                            }
+                        },
+                        "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.12",
+                        "tool_shed_repository": {
+                            "changeset_revision": "17e61517c166",
+                            "name": "minimap2",
+                            "owner": "iuc",
+                            "tool_shed": "toolshed.g2.bx.psu.edu"
+                        },
+                        "tool_state": "{\"alignment_options\": \"{\\\"A\\\": \\\"\\\", \\\"B\\\": \\\"\\\", \\\"E\\\": \\\"\\\", \\\"-O2\\\": \\\"\\\", \\\"O\\\": \\\"\\\", \\\"s\\\": \\\"\\\", \\\"u\\\": null, \\\"z\\\": \\\"\\\", \\\"E2\\\": \\\"\\\"}\", \"analysis_type_selector\": \"\\\"map-pb\\\"\", \"__page__\": null, \"__rerun_remap_job_id__\": null, \"io_options\": \"{\\\"eqx\\\": \\\"false\\\", \\\"output_format\\\": \\\"paf\\\", \\\"L\\\": \\\"false\\\", \\\"Q\\\": \\\"false\\\", \\\"Y\\\": \\\"false\\\", \\\"cs\\\": null, \\\"K\\\": \\\"\\\"}\", \"mapping_options\": \"{\\\"g\\\": \\\"\\\", \\\"G\\\": \\\"\\\", \\\"F\\\": \\\"\\\", \\\"min_occ_floor\\\": \\\"\\\", \\\"f\\\": \\\"\\\", \\\"m\\\": \\\"\\\", \\\"n\\\": \\\"\\\", \\\"p\\\": \\\"\\\", \\\"r\\\": \\\"\\\", \\\"X\\\": \\\"false\\\", \\\"N\\\": \\\"\\\"}\", \"fastq_input\": \"{\\\"__current_case__\\\": 1, \\\"fastq_input_selector\\\": \\\"single\\\", \\\"fastq_input1\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}}\", \"reference_source\": \"{\\\"ref_file\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"reference_source_selector\\\": \\\"history\\\", \\\"__current_case__\\\": 1}\", \"indexing_options\": \"{\\\"I\\\": \\\"\\\", \\\"H\\\": \\\"false\\\", \\\"k\\\": \\\"\\\", \\\"w\\\": \\\"\\\"}\", \"chromInfo\": \"\\\"/home/willlem/NanoGalaxy/galaxy/tool-data/shared/ucsc/chrom/?.len\\\"\"}",
+                        "tool_version": null,
+                        "type": "tool",
+                        "uuid": "639c0e79-0908-4b58-b426-feab854c4a88",
+                        "workflow_outputs": []
+                    },
+                    "5": {
+                        "annotation": "",
+                        "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon/1.3.1.1",
+                        "errors": null,
+                        "id": 5,
+                        "input_connections": {
+                            "corrected_reads": {
+                                "id": 3,
+                                "output_name": "out_fa"
+                            },
+                            "overlaps": {
+                                "id": 4,
+                                "output_name": "alignment_output"
+                            },
+                            "reads": {
+                                "id": 0,
+                                "output_name": "output"
+                            }
+                        },
+                        "inputs": [
+                            {
+                                "description": "runtime parameter for tool Racon",
+                                "name": "overlaps"
+                            },
+                            {
+                                "description": "runtime parameter for tool Racon",
+                                "name": "corrected_reads"
+                            },
+                            {
+                                "description": "runtime parameter for tool Racon",
+                                "name": "reads"
+                            }
+                        ],
+                        "label": null,
+                        "name": "Racon",
+                        "outputs": [
+                            {
+                                "name": "consensus",
+                                "type": "fasta"
+                            }
+                        ],
+                        "position": {
+                            "left": 1440.6666870117188,
+                            "top": 402.5
+                        },
+                        "post_job_actions": {},
+                        "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon/1.3.1.1",
+                        "tool_shed_repository": {
+                            "changeset_revision": "aa39b19ca11e",
+                            "name": "racon",
+                            "owner": "bgruening",
+                            "tool_shed": "toolshed.g2.bx.psu.edu"
+                        },
+                        "tool_state": "{\"overlaps\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__page__\": null, \"e\": \"\\\"0.3\\\"\", \"g\": \"\\\"-8\\\"\", \"f\": \"\\\"false\\\"\", \"corrected_reads\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"m\": \"\\\"5\\\"\", \"q\": \"\\\"10.0\\\"\", \"reads\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"u\": \"\\\"false\\\"\", \"w\": \"\\\"500\\\"\", \"x\": \"\\\"-4\\\"\", \"chromInfo\": \"\\\"/home/willlem/NanoGalaxy/galaxy/tool-data/shared/ucsc/chrom/?.len\\\"\"}",
+                        "tool_version": null,
+                        "type": "tool",
+                        "uuid": "b749ed9a-34c8-4f23-b0d3-015c4ab256c7",
+                        "workflow_outputs": [
+                            {
+                                "label": "consensus",
+                                "output_name": "consensus",
+                                "uuid": "d6d47750-52f4-475a-bfce-bedcdfb437e6"
+                            }
+                        ]
+                    }
+                },
+                "tags": "",
+                "uuid": "83f15b2d-faf6-4445-91de-c2f243f9fb26"
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.6",
-            "tool_shed_repository": {
-                "changeset_revision": "3ee0ef312022",
-                "name": "flye",
-                "owner": "bgruening",
-                "tool_shed": "toolshed.g2.bx.psu.edu"
-            },
-            "tool_state": "{\"inputs\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"g\": \"\\\"5m\\\"\", \"__page__\": null, \"i\": \"\\\"1\\\"\", \"__rerun_remap_job_id__\": null, \"m\": \"\\\"\\\"\", \"no_trestle\": \"\\\"false\\\"\", \"plasmids\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"meta\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"mode\": \"\\\"--nano-raw\\\"\", \"asm\": \"\\\"\\\"\"}",
-            "tool_version": "2.6",
-            "type": "tool",
-            "uuid": "a059a086-5785-4645-8e25-96e953f32621",
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "consensus",
-                    "uuid": "3501f5a4-09c8-4210-a8df-0170c291735c"
-                }
-            ]
+            "tool_id": "53caab9351eae290",
+            "type": "subworkflow",
+            "uuid": "96f4f73a-3869-4cd8-8115-2ac6eb4f1a11",
+            "workflow_outputs": []
         },
         "10": {
             "annotation": "",
@@ -644,8 +868,8 @@
             "name": "Module: Longest 10 Contigs",
             "outputs": [],
             "position": {
-                "left": 1531.1666259765625,
-                "top": 872.9000244140625
+                "left": 1531.1666870117188,
+                "top": 872.8999938964844
             },
             "subworkflow": {
                 "a_galaxy_workflow": "true",
@@ -671,12 +895,12 @@
                         "tool_state": "{}",
                         "tool_version": null,
                         "type": "data_input",
-                        "uuid": "4e6187a2-d9ec-4167-8608-8d5a8057080c",
+                        "uuid": "031be57c-5252-4d1f-8b04-556472962604",
                         "workflow_outputs": [
                             {
                                 "label": null,
                                 "output_name": "output",
-                                "uuid": "a6c8cad8-5456-4b01-ac2d-7a5252adfb6e"
+                                "uuid": "40109693-2f6b-49a4-b670-221466c15878"
                             }
                         ]
                     },
@@ -726,7 +950,7 @@
                         "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"keep_first\": \"\\\"0\\\"\", \"__rerun_remap_job_id__\": null, \"descr_columns\": \"\\\"2\\\"\", \"__page__\": null}",
                         "tool_version": null,
                         "type": "tool",
-                        "uuid": "e16779d0-a8b9-4744-9399-b5a26bebecda",
+                        "uuid": "e7b9ddc7-a823-4d55-bbd1-747f31e52a3f",
                         "workflow_outputs": []
                     },
                     "2": {
@@ -775,7 +999,7 @@
                         "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"ref\": \"{\\\"keep_first_word\\\": \\\"true\\\", \\\"input\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"keep_first\\\": \\\"0\\\", \\\"ref_source\\\": \\\"history\\\", \\\"__current_case__\\\": 0}\"}",
                         "tool_version": null,
                         "type": "tool",
-                        "uuid": "db173d42-50f1-4a15-9e04-e6480bac6e02",
+                        "uuid": "11ae62fd-9303-4c8a-8490-a77869d29611",
                         "workflow_outputs": []
                     },
                     "3": {
@@ -824,7 +1048,7 @@
                         "tool_state": "{\"sortkeys\": \"[{\\\"column\\\": \\\"2\\\", \\\"__index__\\\": 0, \\\"style\\\": \\\"n\\\", \\\"order\\\": \\\"r\\\"}]\", \"__page__\": null, \"ignore_case\": \"\\\"false\\\"\", \"__rerun_remap_job_id__\": null, \"header\": \"\\\"0\\\"\", \"unique\": \"\\\"false\\\"\", \"infile\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
                         "tool_version": null,
                         "type": "tool",
-                        "uuid": "9bc9b3b5-18bb-479f-a1bf-9bcb68cb3075",
+                        "uuid": "eb9c8b44-9518-4974-ba1e-117ea4128135",
                         "workflow_outputs": []
                     },
                     "4": {
@@ -867,7 +1091,7 @@
                         "tool_state": "{\"__page__\": null, \"lineNum\": \"\\\"10\\\"\", \"__rerun_remap_job_id__\": null, \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
                         "tool_version": null,
                         "type": "tool",
-                        "uuid": "3d18aef9-6b27-45a0-8992-17216be5e2e1",
+                        "uuid": "0b8bb584-ec13-4124-a5fe-2b5f08478849",
                         "workflow_outputs": []
                     },
                     "5": {
@@ -918,7 +1142,7 @@
                         "tool_state": "{\"input2\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__page__\": null, \"field1\": \"\\\"1\\\"\", \"partial\": \"\\\"\\\"\", \"field2\": \"\\\"1\\\"\", \"__rerun_remap_job_id__\": null, \"fill_empty_columns\": \"{\\\"fill_empty_columns_switch\\\": \\\"no_fill\\\", \\\"__current_case__\\\": 0}\", \"unmatched\": \"\\\"\\\"\", \"header\": \"\\\"\\\"\", \"input1\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
                         "tool_version": null,
                         "type": "tool",
-                        "uuid": "696c25a4-6299-489c-851a-9ee49b6d151c",
+                        "uuid": "becf8079-d4ce-428b-9554-f52351dad6a7",
                         "workflow_outputs": []
                     },
                     "6": {
@@ -961,7 +1185,7 @@
                         "tool_state": "{\"columnList\": \"\\\"c1,c3\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"delimiter\": \"\\\"T\\\"\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
                         "tool_version": null,
                         "type": "tool",
-                        "uuid": "662559ba-8ad1-4e78-b138-4c95d59f0200",
+                        "uuid": "f741c1d5-77cb-450a-8e30-0c7949248f6a",
                         "workflow_outputs": []
                     },
                     "7": {
@@ -1004,27 +1228,27 @@
                         "tool_state": "{\"title_col\": \"\\\"1\\\"\", \"seq_col\": \"\\\"2\\\"\", \"__page__\": null, \"__rerun_remap_job_id__\": null, \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
                         "tool_version": null,
                         "type": "tool",
-                        "uuid": "3e65c1db-8ca5-4b05-aafe-235cf0d8bf58",
+                        "uuid": "d91cfecf-a464-4456-a4ca-b46116898284",
                         "workflow_outputs": [
                             {
                                 "label": "topngenomes",
                                 "output_name": "output",
-                                "uuid": "68cbb987-358d-429a-8f3f-53468bdce9e5"
+                                "uuid": "b7c31102-8b9d-4638-a20b-350eaf675836"
                             }
                         ]
                     }
                 },
                 "tags": "",
-                "uuid": "09c3bcc7-edca-4b88-9f1e-c90d7cdb335a"
+                "uuid": "8cba2f3e-c972-484b-b89e-f7306ce086bb"
             },
-            "tool_id": "fb1ba8d155877939",
+            "tool_id": "7e8ad4a8cda7d8b0",
             "type": "subworkflow",
-            "uuid": "117005b9-2d29-4f7a-91e5-1f82203abc33",
+            "uuid": "5f221a0a-3e6b-443d-b2fe-ecec6be6545d",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "topngenomes",
-                    "uuid": "f0f4e374-ac58-443e-83ac-1828563738e6"
+                    "uuid": "5d6bc070-7f43-4aae-ac52-c98736437688"
                 }
             ]
         },
@@ -1036,7 +1260,7 @@
             "input_connections": {
                 "input_file": {
                     "id": 9,
-                    "output_name": "assembly_gfa"
+                    "output_name": "graph"
                 }
             },
             "inputs": [
@@ -1074,14 +1298,14 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"input_file\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"output_format\": \"\\\"jpg\\\"\", \"height\": \"\\\"1000\\\"\", \"width\": \"\\\"1000\\\"\", \"__rerun_remap_job_id__\": null}",
-            "tool_version": "0.8.1+galaxy0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "0d83fe93-0209-4f3c-8166-fe71988d7710",
+            "uuid": "8eb3bd1b-f282-4e8c-9d54-bff5c1a233f0",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "outfile",
-                    "uuid": "06312c23-9d22-49a0-ad89-c2e509b8ee3d"
+                    "uuid": "34fd1c47-f849-40bf-80a1-7527c0000342"
                 }
             ]
         },
@@ -1129,9 +1353,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"checks\": \"[{\\\"__index__\\\": 0, \\\"replacement\\\": \\\">\\\", \\\"pattern\\\": \\\">contig_\\\"}, {\\\"__index__\\\": 1, \\\"replacement\\\": \\\">\\\", \\\"pattern\\\": \\\">utg0*\\\"}]\", \"__page__\": null}",
-            "tool_version": "1.0.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "6ca8afd5-6c32-4b2b-a6f1-b6bd5d7e1da6",
+            "uuid": "fde8d726-2225-4ac3-9093-3ac933bc72c6",
             "workflow_outputs": []
         },
         "13": {
@@ -1180,14 +1404,14 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"inputs\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"queries\": \"[]\"}",
-            "tool_version": "0.1.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "e4a3ca14-997a-4533-bcea-3901a86a3869",
+            "uuid": "12464c8e-af22-4600-8baf-6fd681ad78b7",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "out_file1",
-                    "uuid": "83d58169-f096-4867-986e-70bb9d06dda5"
+                    "uuid": "ae3245a4-3dcd-490a-a254-81900f8844e4"
                 }
             ]
         },
@@ -1321,9 +1545,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"genomes\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"advanced\": \"{\\\"plength_plasmidfinder\\\": \\\"60.0\\\", \\\"pid_threshold\\\": \\\"98.0\\\", \\\"genome_size_upper_bound\\\": \\\"6000000\\\", \\\"exclude_resistance_phenotypes\\\": \\\"false\\\", \\\"unacceptable_number_contigs\\\": \\\"1000\\\", \\\"minimum_contig_length\\\": \\\"300\\\", \\\"plasmidfinder_type\\\": \\\"include_all\\\", \\\"genome_size_lower_bound\\\": \\\"4000000\\\", \\\"exclude_genes\\\": {\\\"exclude_genes_condition\\\": \\\"default\\\", \\\"__current_case__\\\": 0}, \\\"plength_resfinder\\\": \\\"60.0\\\", \\\"minimum_N50_value\\\": \\\"10000\\\", \\\"plength_pointfinder\\\": \\\"95.0\\\", \\\"report_all_blast\\\": \\\"false\\\", \\\"exclude_negatives\\\": \\\"false\\\"}\", \"use_pointfinder\": \"\\\"disabled\\\"\"}",
-            "tool_version": "0.7.1+galaxy1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "e7125ab3-5fbd-478d-a593-7af9825ad371",
+            "uuid": "a9e0b460-93f0-4fdb-8b9e-29fd40abeb30",
             "workflow_outputs": []
         },
         "15": {
@@ -1397,9 +1621,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"threshold\": \"\\\"0.7\\\"\", \"__page__\": null, \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/home/willlem/NanoGalaxy/galaxy/tool-data/shared/ucsc/chrom/?.len\\\"\", \"readFile\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-            "tool_version": "1.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "5a86c050-7f56-4a06-a75d-2199f1fcaaba",
+            "uuid": "53242052-9625-4f4f-9dff-c3fb759feed7",
             "workflow_outputs": []
         },
         "16": {
@@ -1454,9 +1678,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"alignment_options\": \"{\\\"A\\\": \\\"\\\", \\\"B\\\": \\\"\\\", \\\"E\\\": \\\"\\\", \\\"-O2\\\": \\\"\\\", \\\"O\\\": \\\"\\\", \\\"s\\\": \\\"\\\", \\\"u\\\": null, \\\"z\\\": \\\"\\\", \\\"E2\\\": \\\"\\\"}\", \"analysis_type_selector\": \"\\\"map-pb\\\"\", \"__page__\": null, \"__rerun_remap_job_id__\": null, \"io_options\": \"{\\\"eqx\\\": \\\"false\\\", \\\"output_format\\\": \\\"BAM\\\", \\\"L\\\": \\\"false\\\", \\\"Q\\\": \\\"false\\\", \\\"Y\\\": \\\"false\\\", \\\"cs\\\": null, \\\"K\\\": \\\"\\\"}\", \"mapping_options\": \"{\\\"g\\\": \\\"\\\", \\\"G\\\": \\\"\\\", \\\"F\\\": \\\"\\\", \\\"min_occ_floor\\\": \\\"\\\", \\\"f\\\": \\\"\\\", \\\"m\\\": \\\"\\\", \\\"n\\\": \\\"\\\", \\\"p\\\": \\\"\\\", \\\"r\\\": \\\"\\\", \\\"X\\\": \\\"false\\\", \\\"N\\\": \\\"\\\"}\", \"fastq_input\": \"{\\\"__current_case__\\\": 1, \\\"fastq_input_selector\\\": \\\"single\\\", \\\"fastq_input1\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}}\", \"reference_source\": \"{\\\"ref_file\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"reference_source_selector\\\": \\\"history\\\", \\\"__current_case__\\\": 1}\", \"indexing_options\": \"{\\\"I\\\": \\\"\\\", \\\"H\\\": \\\"false\\\", \\\"k\\\": \\\"\\\", \\\"w\\\": \\\"\\\"}\"}",
-            "tool_version": "2.12",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "fe401e3f-9c03-4dc0-9d97-db2cbf8b596f",
+            "uuid": "482d6313-4d46-44ff-acda-cf10c5d78c70",
             "workflow_outputs": []
         },
         "17": {
@@ -1610,19 +1834,19 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"strain\": \"\\\"\\\"\", \"increment\": \"\\\"1\\\"\", \"species\": \"\\\"\\\"\", \"__page__\": null, \"usegenus\": \"\\\"false\\\"\", \"evalue\": \"\\\"1e-06\\\"\", \"locustag\": \"\\\"\\\"\", \"fast\": \"\\\"false\\\"\", \"compliant\": \"{\\\"mincontig\\\": \\\"200\\\", \\\"__current_case__\\\": 0, \\\"compliant_select\\\": \\\"no\\\", \\\"addgenes\\\": \\\"false\\\"}\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"kingdom\": \"{\\\"gcode\\\": \\\"11\\\", \\\"kingdom_select\\\": \\\"Bacteria\\\", \\\"__current_case__\\\": 1}\", \"metagenome\": \"\\\"false\\\"\", \"centre\": \"\\\"\\\"\", \"outputs\": \"[\\\"gff\\\", \\\"gbk\\\", \\\"fna\\\", \\\"faa\\\", \\\"ffn\\\", \\\"sqn\\\", \\\"fsa\\\", \\\"tbl\\\", \\\"tsv\\\", \\\"err\\\", \\\"txt\\\"]\", \"gffver\": \"\\\"3\\\"\", \"norrna\": \"\\\"false\\\"\", \"proteins\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"notrna\": \"\\\"false\\\"\", \"plasmid\": \"\\\"\\\"\", \"rfam\": \"\\\"false\\\"\", \"genus\": \"\\\"\\\"\", \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.14.5",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "f51fd8ab-abe1-47d1-81d4-d2200b665ecd",
+            "uuid": "fe7e632e-4f8d-4f98-a440-ade1849b9419",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "out_gbk",
-                    "uuid": "0865e48e-b22d-4f26-a605-ec7fc4c44161"
+                    "uuid": "a2d20ce2-e072-469e-9ed1-0d82694ad05d"
                 },
                 {
                     "label": null,
                     "output_name": "out_gff",
-                    "uuid": "b9f9d49c-d2f9-45b9-b65d-11765b2fcba6"
+                    "uuid": "7efca1c6-80b2-4d5b-83d4-774445de9e7f"
                 }
             ]
         },
@@ -1670,9 +1894,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"keep_first\": \"\\\"0\\\"\", \"__rerun_remap_job_id__\": null, \"descr_columns\": \"\\\"1\\\"\", \"__page__\": null}",
-            "tool_version": "1.1.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "9cceb593-8af0-4362-84aa-74534efeaa62",
+            "uuid": "3fded355-b3a5-4475-b68b-cacfca9ebe3b",
             "workflow_outputs": []
         },
         "19": {
@@ -1719,9 +1943,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"ref\": \"{\\\"keep_first_word\\\": \\\"true\\\", \\\"input\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"keep_first\\\": \\\"0\\\", \\\"ref_source\\\": \\\"history\\\", \\\"__current_case__\\\": 0}\"}",
-            "tool_version": "1.0.3",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "d9708896-f294-4d68-bc3f-eeafbb9eb686",
+            "uuid": "63f52d1e-8f67-44fe-a4bb-8bdf60103ade",
             "workflow_outputs": []
         },
         "20": {
@@ -1768,9 +1992,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"evalue_cutoff\": \"\\\"0.001\\\"\", \"__page__\": null, \"adv_opts\": \"{\\\"adv_opts_selector\\\": \\\"basic\\\", \\\"__current_case__\\\": 0}\", \"__rerun_remap_job_id__\": null, \"db_opts\": \"{\\\"db_opts_selector\\\": \\\"db\\\", \\\"subject\\\": \\\"\\\", \\\"histdb\\\": \\\"\\\", \\\"__current_case__\\\": 0, \\\"database\\\": [\\\"nt_2020\\\"]}\", \"query\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"blast_type\": \"\\\"megablast\\\"\", \"output\": \"{\\\"out_format\\\": \\\"cols\\\", \\\"std_cols\\\": [\\\"qseqid\\\", \\\"sseqid\\\", \\\"pident\\\", \\\"length\\\", \\\"qstart\\\", \\\"qend\\\", \\\"evalue\\\"], \\\"ids_cols\\\": [\\\"sgi\\\", \\\"sacc\\\", \\\"stitle\\\"], \\\"tax_cols\\\": null, \\\"__current_case__\\\": 2, \\\"misc_cols\\\": null, \\\"ext_cols\\\": [\\\"sallseqid\\\", \\\"salltitles\\\"]}\"}",
-            "tool_version": "0.2.01",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "8c30d6a4-00ca-4718-b55c-4acd12343e2f",
+            "uuid": "30675bc2-6e48-4ef7-8be3-ff56225e5997",
             "workflow_outputs": []
         },
         "21": {
@@ -1811,9 +2035,9 @@
             },
             "tool_id": "Grep1",
             "tool_state": "{\"__page__\": null, \"pattern\": \"\\\"^Isolate ID\\\"\", \"invert\": \"\\\"true\\\"\", \"__rerun_remap_job_id__\": null, \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-            "tool_version": "1.0.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "a0314d5e-b14b-4c7c-9463-fffc6565b015",
+            "uuid": "24286a20-ca3b-4f09-9e25-ab802626f60f",
             "workflow_outputs": []
         },
         "22": {
@@ -1868,9 +2092,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"ignore_case\": \"\\\"false\\\"\", \"infile2\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"infile1\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"empty_string_filler\": \"\\\"\\\"\", \"__rerun_remap_job_id__\": null, \"jointype\": \"\\\"-a 1 -a 2\\\"\", \"header\": \"\\\"true\\\"\", \"column1\": \"\\\"8\\\"\", \"column2\": \"\\\"3\\\"\"}",
-            "tool_version": "1.1.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "070e3efc-e24d-4a0a-96f3-28d2a3216578",
+            "uuid": "ccf33931-35d6-4ac2-bc54-bbe6ac7f5f8e",
             "workflow_outputs": []
         },
         "23": {
@@ -1917,9 +2141,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"exactScaling\": \"\\\"false\\\"\", \"outFileFormat\": \"\\\"bigwig\\\"\", \"__page__\": null, \"region\": \"\\\"\\\"\", \"bamInput\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"binSize\": \"\\\"50\\\"\", \"scaling\": \"{\\\"effectiveGenomeSize\\\": {\\\"effectiveGenomeSize_opt\\\": \\\"2685511504\\\", \\\"__current_case__\\\": 4}, \\\"type\\\": \\\"1x\\\", \\\"__current_case__\\\": 4}\", \"advancedOpt\": \"{\\\"showAdvancedOpt\\\": \\\"no\\\", \\\"__current_case__\\\": 0}\", \"__rerun_remap_job_id__\": null}",
-            "tool_version": "3.3.2.0.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "98de8f8d-adeb-476c-96bf-ae25f247df97",
+            "uuid": "4a502eda-4d92-4a92-b965-e384bdd30e19",
             "workflow_outputs": []
         },
         "24": {
@@ -1966,9 +2190,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"exactScaling\": \"\\\"false\\\"\", \"outFileFormat\": \"\\\"bigwig\\\"\", \"__page__\": null, \"region\": \"\\\"\\\"\", \"bamInput\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"binSize\": \"\\\"1000\\\"\", \"scaling\": \"{\\\"type\\\": \\\"no\\\", \\\"__current_case__\\\": 3}\", \"advancedOpt\": \"{\\\"showAdvancedOpt\\\": \\\"no\\\", \\\"__current_case__\\\": 0}\", \"__rerun_remap_job_id__\": null}",
-            "tool_version": "3.3.2.0.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "30daf5b9-e1b5-4876-988b-df61814bd534",
+            "uuid": "b808426d-943e-4842-9ad6-86b0326264d3",
             "workflow_outputs": []
         },
         "25": {
@@ -2009,9 +2233,9 @@
             },
             "tool_id": "Grep1",
             "tool_state": "{\"__page__\": null, \"pattern\": \"\\\"\\\\\\\\t.*\\\\\\\\t.*\\\\\\\\t\\\"\", \"invert\": \"\\\"false\\\"\", \"__rerun_remap_job_id__\": null, \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-            "tool_version": "1.0.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "e1c99445-0a4b-45f7-9461-db825e450faa",
+            "uuid": "c74ba58c-3a45-4eb3-b5bb-54b34a9b2406",
             "workflow_outputs": []
         },
         "26": {
@@ -2052,9 +2276,9 @@
             },
             "tool_id": "gff2bed1",
             "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
-            "tool_version": "1.0.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "d2e9fdfa-1ffa-4a2b-8b45-3d09885d3897",
+            "uuid": "579aaf79-4a5c-43d5-b40c-4359481a29e2",
             "workflow_outputs": []
         },
         "27": {
@@ -2101,9 +2325,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"count\": \"\\\"50\\\"\", \"__page__\": null, \"complement\": \"\\\"\\\"\", \"__rerun_remap_job_id__\": null, \"infile\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-            "tool_version": "1.1.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "00839441-6d58-490e-bac3-1fbba9d7ff42",
+            "uuid": "b24d5891-a3a0-4f06-8a95-95484cf10321",
             "workflow_outputs": []
         },
         "28": {
@@ -2161,9 +2385,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"inputs\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"queries\": \"[{\\\"inputs2\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"__index__\\\": 0}]\"}",
-            "tool_version": "0.1.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "cb6155e1-f896-472a-bca4-cb856b3814c6",
+            "uuid": "e14d93c9-fce4-4c70-9359-b510fdd58945",
             "workflow_outputs": []
         },
         "29": {
@@ -2218,9 +2442,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"ignore_case\": \"\\\"false\\\"\", \"infile2\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"infile1\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"empty_string_filler\": \"\\\"0\\\"\", \"__rerun_remap_job_id__\": null, \"jointype\": \"\\\" \\\"\", \"header\": \"\\\"false\\\"\", \"column1\": \"null\", \"column2\": \"null\"}",
-            "tool_version": "1.1.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "ef788c4d-8589-4b32-a510-e0bf940adb05",
+            "uuid": "54f054e2-b9d6-4f8b-96d9-31caca34c958",
             "workflow_outputs": []
         },
         "30": {
@@ -2261,9 +2485,9 @@
             },
             "tool_id": "Grep1",
             "tool_state": "{\"__page__\": null, \"pattern\": \"\\\"\\\\\\\\t\\\\\\\\t\\\\\\\\t\\\"\", \"invert\": \"\\\"true\\\"\", \"__rerun_remap_job_id__\": null, \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-            "tool_version": "1.0.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "a2cd4bb9-139e-4911-8f17-6cf52ed6bac1",
+            "uuid": "d2313d74-59fe-4814-846e-46809ca27ddb",
             "workflow_outputs": []
         },
         "31": {
@@ -2304,9 +2528,9 @@
             },
             "tool_id": "Cut1",
             "tool_state": "{\"columnList\": \"\\\"c1,c14,c16,c3,c4,c5,c6,c9,c10\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"delimiter\": \"\\\"T\\\"\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
-            "tool_version": "1.0.2",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "9f93f70f-e87b-4cca-9454-7561cdae2e89",
+            "uuid": "8b1656e6-8ac2-47c5-b300-56fca6c839b6",
             "workflow_outputs": []
         },
         "32": {
@@ -2353,9 +2577,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
-            "tool_version": "0.69.8+galaxy5",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "18d4bb6f-f0ac-40f9-8884-34134b22d918",
+            "uuid": "a3829c2c-526d-4b1a-8243-059745445807",
             "workflow_outputs": []
         },
         "33": {
@@ -2402,9 +2626,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"column\": \"\\\"3\\\"\", \"__page__\": null, \"__rerun_remap_job_id__\": null, \"infile\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-            "tool_version": "0.2",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "373a27a8-6f94-413b-ab33-ea5b085c04de",
+            "uuid": "83bd998d-70aa-49cf-96fa-2715a7795bb8",
             "workflow_outputs": []
         },
         "34": {
@@ -2445,9 +2669,9 @@
             },
             "tool_id": "Grep1",
             "tool_state": "{\"__page__\": null, \"pattern\": \"\\\"\\\\\\\\tCDS.*\\\\\\\\+\\\"\", \"invert\": \"\\\"false\\\"\", \"__rerun_remap_job_id__\": null, \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-            "tool_version": "1.0.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "957c511c-0a02-4516-94bb-1ef6ec549567",
+            "uuid": "e40b3fda-e5c4-43ca-8f94-4e6455f6cbbc",
             "workflow_outputs": []
         },
         "35": {
@@ -2488,9 +2712,9 @@
             },
             "tool_id": "Grep1",
             "tool_state": "{\"__page__\": null, \"pattern\": \"\\\"\\\\\\\\tCDS.*-\\\"\", \"invert\": \"\\\"false\\\"\", \"__rerun_remap_job_id__\": null, \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-            "tool_version": "1.0.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "194a1292-623e-4064-8f70-193de2885d79",
+            "uuid": "72aba1ff-9882-42e3-b317-3415cc8480ff",
             "workflow_outputs": []
         },
         "36": {
@@ -2537,9 +2761,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"title_col\": \"\\\"1\\\"\", \"seq_col\": \"\\\"2\\\"\", \"__page__\": null, \"__rerun_remap_job_id__\": null, \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-            "tool_version": "1.1.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "8bdaee63-6b3b-482d-8065-b2b05cda63f6",
+            "uuid": "f3ed7bea-6c49-42ff-acc4-ba70a67aaec0",
             "workflow_outputs": []
         },
         "37": {
@@ -2586,9 +2810,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"header_lines_conditional\": \"{\\\"header_lines_select\\\": \\\"no\\\", \\\"__current_case__\\\": 0}\", \"__rerun_remap_job_id__\": null, \"cond\": \"\\\"c4 / c13 * c3\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"round\": \"\\\"no\\\"\", \"avoid_scientific_notation\": \"\\\"no\\\"\"}",
-            "tool_version": "1.3.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "1ec14fe0-9830-4cd5-b6d5-aaed559898ce",
+            "uuid": "3feb95f5-0c86-4fec-be87-d953034e3c1a",
             "workflow_outputs": []
         },
         "38": {
@@ -2629,9 +2853,9 @@
             },
             "tool_id": "Cut1",
             "tool_state": "{\"columnList\": \"\\\"c8,c9,c10,c11,c5,c2,c4\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"delimiter\": \"\\\"T\\\"\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
-            "tool_version": "1.0.2",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "ab622426-d229-4ba4-97a9-128dc90849d5",
+            "uuid": "f94ff566-ea19-4194-b0a1-94dca3e7a8fd",
             "workflow_outputs": []
         },
         "39": {
@@ -2661,7 +2885,7 @@
             ],
             "position": {
                 "left": 3352.4833984375,
-                "top": 267.8333282470703
+                "top": 267.83331298828125
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -2685,9 +2909,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"begin\": \"\\\"9\\\"\", \"end\": \"\\\"10\\\"\", \"__rerun_remap_job_id__\": null, \"source\": \"\\\"staramr\\\"\", \"score\": \"\\\"5\\\"\", \"table\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"attributes\": \"[{\\\"__index__\\\": 0, \\\"val\\\": \\\"3\\\", \\\"key\\\": \\\"Name\\\"}, {\\\"__index__\\\": 1, \\\"val\\\": \\\"4\\\", \\\"key\\\": \\\"Phenotype\\\"}, {\\\"__index__\\\": 2, \\\"val\\\": \\\"11\\\", \\\"key\\\": \\\"Accession\\\"}]\", \"rid\": \"\\\"8\\\"\", \"type\": \"\\\"sequence_feature\\\"\", \"strand\": \"{\\\"strand_select\\\": \\\"none\\\", \\\"__current_case__\\\": 0}\"}",
-            "tool_version": "1.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "8d6ee8ab-376d-4566-8138-ff6e9a3f9661",
+            "uuid": "68f575f6-6b96-454a-9cd0-8d7a74804b8e",
             "workflow_outputs": []
         },
         "40": {
@@ -2734,9 +2958,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"header_lines_conditional\": \"{\\\"header_lines_select\\\": \\\"no\\\", \\\"__current_case__\\\": 0}\", \"__rerun_remap_job_id__\": null, \"cond\": \"\\\"log(c4) * 0.4342941897738882\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"round\": \"\\\"no\\\"\", \"avoid_scientific_notation\": \"\\\"no\\\"\"}",
-            "tool_version": "1.3.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "a02493f5-70e3-4d59-956f-0b471cd1bb66",
+            "uuid": "1a29a237-30b6-4f3a-b3c5-13a0168dbfc0",
             "workflow_outputs": []
         },
         "41": {
@@ -2783,9 +3007,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"ref\": \"{\\\"input\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"ref_source\\\": \\\"bed\\\", \\\"__current_case__\\\": 0}\"}",
-            "tool_version": "0.69.8+galaxy5",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "b73a0c69-4eb8-48d7-a277-4f20a2ddf19a",
+            "uuid": "3331ce72-a476-4482-b5e0-d075a4aa32ba",
             "workflow_outputs": []
         },
         "42": {
@@ -2832,9 +3056,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"ref\": \"{\\\"input\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"ref_source\\\": \\\"bed\\\", \\\"__current_case__\\\": 0}\"}",
-            "tool_version": "0.69.8+galaxy5",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "d66590ac-f61b-43c5-a0e8-d0035856d644",
+            "uuid": "dd28e06b-7764-472a-a4b1-cbfeeddd100d",
             "workflow_outputs": []
         },
         "43": {
@@ -2881,9 +3105,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"reference_genome\": \"{\\\"reference_genome_source\\\": \\\"history\\\", \\\"history_item\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"__current_case__\\\": 0}\", \"window\": \"\\\"10000\\\"\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
-            "tool_version": "0.69.8+galaxy5",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "aecccf07-109f-4e18-858e-f153a2ed206a",
+            "uuid": "9d0a6506-d30c-4d60-b8e3-d31991e3e95a",
             "workflow_outputs": []
         },
         "44": {
@@ -2930,9 +3154,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"column\": \"null\", \"__page__\": null, \"__rerun_remap_job_id__\": null, \"infile\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-            "tool_version": "0.2",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "3b9fbfcf-e497-4a57-956d-8b3c806bc2ac",
+            "uuid": "bdcaa1ec-81ae-4a45-8996-d1ba71716754",
             "workflow_outputs": []
         },
         "45": {
@@ -2973,9 +3197,9 @@
             },
             "tool_id": "Filter1",
             "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"header_lines\": \"\\\"0\\\"\", \"cond\": \"\\\"c14 > 0.1\\\"\", \"__page__\": null}",
-            "tool_version": "1.1.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "8ff7f375-0d3d-42df-ac5e-f8fff2cdffcd",
+            "uuid": "b770cec1-fe56-4281-9b53-7c1cb96f3381",
             "workflow_outputs": []
         },
         "46": {
@@ -3029,9 +3253,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"checks\": \"[{\\\"__index__\\\": 0, \\\"replacement\\\": \\\"\\\\\\\\1\\\\\\\\t\\\\\\\\2\\\\\\\\t\\\\\\\\3\\\\\\\\t\\\\\\\\4\\\\\\\\tpid=\\\\\\\\5\\\", \\\"pattern\\\": \\\"(.*)\\\\\\\\t(.*)\\\\\\\\t(.*)\\\\\\\\t(.*)\\\\\\\\t(.*)\\\\\\\\t(.*)\\\\\\\\t(.*)\\\"}]\", \"__page__\": null}",
-            "tool_version": "1.0.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "880d0c4a-e7c9-4a7b-8a9d-1999c18da284",
+            "uuid": "7fd88cc0-36d8-4495-80d4-41c5180cf2dc",
             "workflow_outputs": []
         },
         "47": {
@@ -3085,9 +3309,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"checks\": \"[{\\\"__index__\\\": 0, \\\"replacement\\\": \\\"\\\\\\\\1\\\\\\\\t\\\\\\\\2\\\\\\\\t\\\\\\\\3\\\\\\\\t\\\\\\\\6\\\", \\\"pattern\\\": \\\"(.*)\\\\\\\\t(.*)\\\\\\\\t(.*)\\\\\\\\t(.*)\\\\\\\\t(.*)\\\\\\\\t(.*)\\\\\\\\t(.*)\\\"}]\", \"__page__\": null}",
-            "tool_version": "1.0.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "8c22f222-0df2-41f1-9c69-44d311c17d67",
+            "uuid": "d1f34353-1d49-4bc9-8bad-87def8210149",
             "workflow_outputs": []
         },
         "48": {
@@ -3128,9 +3352,9 @@
             },
             "tool_id": "Cut1",
             "tool_state": "{\"columnList\": \"\\\"c1,c2,c3,c5\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"delimiter\": \"\\\"T\\\"\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
-            "tool_version": "1.0.2",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "64e4b4b6-5887-4477-beb0-bc9e28d75f5f",
+            "uuid": "ae19cef2-8988-4288-80ff-7d1d2510133d",
             "workflow_outputs": []
         },
         "49": {
@@ -3177,9 +3401,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
-            "tool_version": "0.69.8+galaxy5",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "b06f8587-5857-434c-9329-23710017e77c",
+            "uuid": "7a7482a3-6af9-4675-8362-f3eea5e4b8c6",
             "workflow_outputs": []
         },
         "50": {
@@ -3226,9 +3450,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"sortkeys\": \"[{\\\"column\\\": \\\"14\\\", \\\"__index__\\\": 0, \\\"style\\\": \\\"n\\\", \\\"order\\\": \\\"r\\\"}]\", \"__page__\": null, \"ignore_case\": \"\\\"false\\\"\", \"__rerun_remap_job_id__\": null, \"header\": \"\\\"0\\\"\", \"unique\": \"\\\"false\\\"\", \"infile\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-            "tool_version": "1.1.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "0507d5a2-6695-4462-a4d0-b982e781df4e",
+            "uuid": "440ded01-3495-4964-a00a-454427132f91",
             "workflow_outputs": []
         },
         "51": {
@@ -3282,9 +3506,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"begin\": \"\\\"5\\\"\", \"end\": \"\\\"6\\\"\", \"__rerun_remap_job_id__\": null, \"source\": \"\\\"megablast\\\"\", \"score\": \"\\\"3\\\"\", \"table\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"attributes\": \"[{\\\"__index__\\\": 0, \\\"val\\\": \\\"11\\\", \\\"key\\\": \\\"GI\\\"}, {\\\"__index__\\\": 1, \\\"val\\\": \\\"12\\\", \\\"key\\\": \\\"Name\\\"}, {\\\"__index__\\\": 2, \\\"val\\\": \\\"7\\\", \\\"key\\\": \\\"e-value\\\"}]\", \"rid\": \"\\\"1\\\"\", \"type\": \"\\\"sequence_feature\\\"\", \"strand\": \"{\\\"strand_select\\\": \\\"none\\\", \\\"__current_case__\\\": 0}\"}",
-            "tool_version": "1.1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "44a074cf-575d-4cc8-948d-685fd6cdee6a",
+            "uuid": "0015dfaa-1d27-441d-8a6f-ae1ebec3686f",
             "workflow_outputs": []
         },
         "52": {
@@ -3331,9 +3555,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"count\": \"\\\"3\\\"\", \"__page__\": null, \"complement\": \"\\\"\\\"\", \"__rerun_remap_job_id__\": null, \"infile\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-            "tool_version": "1.1.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "b32bce24-49f6-4232-b691-8d5b41342058",
+            "uuid": "5af344c7-22de-495b-813b-b6b5e6411e42",
             "workflow_outputs": []
         },
         "53": {
@@ -3398,14 +3622,14 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"standalone\": \"\\\"true\\\"\", \"__rerun_remap_job_id__\": null, \"reference_genome\": \"{\\\"genome\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"__current_case__\\\": 1, \\\"genome_type_select\\\": \\\"history\\\"}\", \"track_groups\": \"[{\\\"category\\\": \\\"Prokka\\\", \\\"__index__\\\": 0, \\\"data_tracks\\\": [{\\\"__index__\\\": 0, \\\"data_format\\\": {\\\"index\\\": \\\"false\\\", \\\"match_part\\\": {\\\"match_part_select\\\": \\\"false\\\", \\\"__current_case__\\\": 1}, \\\"jbstyle\\\": {\\\"style_classname\\\": \\\"feature\\\", \\\"style_description\\\": \\\"note,description\\\", \\\"style_height\\\": \\\"10px\\\", \\\"max_height\\\": \\\"600\\\", \\\"style_label\\\": \\\"product,name,id\\\"}, \\\"jbmenu\\\": {\\\"track_menu\\\": []}, \\\"track_visibility\\\": \\\"default_off\\\", \\\"track_config\\\": {\\\"track_class\\\": \\\"NeatCanvasFeatures/View/Track/NeatFeatures\\\", \\\"canvas_options\\\": {\\\"transcriptType\\\": \\\"\\\", \\\"subParts\\\": \\\"\\\", \\\"impliedUTRs\\\": \\\"false\\\"}, \\\"__current_case__\\\": 4}, \\\"jbcolor_scale\\\": {\\\"color_score\\\": {\\\"color\\\": {\\\"color_select\\\": \\\"automatic\\\", \\\"__current_case__\\\": 0}, \\\"__current_case__\\\": 0, \\\"color_score_select\\\": \\\"none\\\"}}, \\\"override_apollo_drag\\\": \\\"False\\\", \\\"__current_case__\\\": 2, \\\"override_apollo_plugins\\\": \\\"False\\\", \\\"jb_custom_config\\\": {\\\"option\\\": []}, \\\"annotation\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"data_format_select\\\": \\\"gene_calls\\\"}}]}, {\\\"category\\\": \\\"Sequencing\\\", \\\"__index__\\\": 1, \\\"data_tracks\\\": [{\\\"__index__\\\": 0, \\\"data_format\\\": {\\\"var_band\\\": \\\"true\\\", \\\"track_visibility\\\": \\\"default_off\\\", \\\"jb_custom_config\\\": {\\\"option\\\": []}, \\\"scaling\\\": {\\\"scale_select\\\": \\\"auto_local\\\", \\\"__current_case__\\\": 0}, \\\"override_apollo_plugins\\\": \\\"False\\\", \\\"xyplot\\\": \\\"true\\\", \\\"override_apollo_drag\\\": \\\"False\\\", \\\"MultiBigWig\\\": \\\"false\\\", \\\"__current_case__\\\": 4, \\\"scale_select2\\\": \\\"linear\\\", \\\"annotation\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"jbcolor\\\": {\\\"color\\\": {\\\"color_select\\\": \\\"automatic\\\", \\\"__current_case__\\\": 0}, \\\"bicolor_pivot\\\": {\\\"bicolor_pivot_select\\\": \\\"zero\\\", \\\"__current_case__\\\": 0}}, \\\"data_format_select\\\": \\\"wiggle\\\"}}]}, {\\\"category\\\": \\\"Blast\\\", \\\"__index__\\\": 2, \\\"data_tracks\\\": [{\\\"__index__\\\": 0, \\\"data_format\\\": {\\\"index\\\": \\\"false\\\", \\\"match_part\\\": {\\\"match_part_select\\\": \\\"false\\\", \\\"__current_case__\\\": 1}, \\\"jbstyle\\\": {\\\"style_classname\\\": \\\"feature\\\", \\\"style_description\\\": \\\"note,description\\\", \\\"style_height\\\": \\\"10px\\\", \\\"max_height\\\": \\\"600\\\", \\\"style_label\\\": \\\"product,name,id\\\"}, \\\"jbmenu\\\": {\\\"track_menu\\\": []}, \\\"track_visibility\\\": \\\"default_off\\\", \\\"track_config\\\": {\\\"track_class\\\": \\\"NeatCanvasFeatures/View/Track/NeatFeatures\\\", \\\"canvas_options\\\": {\\\"transcriptType\\\": \\\"\\\", \\\"subParts\\\": \\\"\\\", \\\"impliedUTRs\\\": \\\"false\\\"}, \\\"__current_case__\\\": 4}, \\\"jbcolor_scale\\\": {\\\"color_score\\\": {\\\"color\\\": {\\\"color_select\\\": \\\"automatic\\\", \\\"__current_case__\\\": 0}, \\\"__current_case__\\\": 0, \\\"color_score_select\\\": \\\"none\\\"}}, \\\"override_apollo_drag\\\": \\\"False\\\", \\\"__current_case__\\\": 2, \\\"override_apollo_plugins\\\": \\\"False\\\", \\\"jb_custom_config\\\": {\\\"option\\\": []}, \\\"annotation\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"data_format_select\\\": \\\"gene_calls\\\"}}]}, {\\\"category\\\": \\\"staramr\\\", \\\"__index__\\\": 3, \\\"data_tracks\\\": [{\\\"__index__\\\": 0, \\\"data_format\\\": {\\\"index\\\": \\\"false\\\", \\\"match_part\\\": {\\\"match_part_select\\\": \\\"false\\\", \\\"__current_case__\\\": 1}, \\\"jbstyle\\\": {\\\"style_classname\\\": \\\"feature\\\", \\\"style_description\\\": \\\"note,description\\\", \\\"style_height\\\": \\\"10px\\\", \\\"max_height\\\": \\\"600\\\", \\\"style_label\\\": \\\"product,name,id\\\"}, \\\"jbmenu\\\": {\\\"track_menu\\\": []}, \\\"track_visibility\\\": \\\"default_off\\\", \\\"track_config\\\": {\\\"track_class\\\": \\\"NeatHTMLFeatures/View/Track/NeatFeatures\\\", \\\"html_options\\\": {\\\"topLevelFeatures\\\": \\\"\\\"}, \\\"__current_case__\\\": 3}, \\\"jbcolor_scale\\\": {\\\"color_score\\\": {\\\"color\\\": {\\\"color_select\\\": \\\"automatic\\\", \\\"__current_case__\\\": 0}, \\\"__current_case__\\\": 0, \\\"color_score_select\\\": \\\"none\\\"}}, \\\"override_apollo_drag\\\": \\\"False\\\", \\\"__current_case__\\\": 2, \\\"override_apollo_plugins\\\": \\\"False\\\", \\\"jb_custom_config\\\": {\\\"option\\\": []}, \\\"annotation\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"data_format_select\\\": \\\"gene_calls\\\"}}]}]\", \"plugins\": \"{\\\"BlastView\\\": \\\"true\\\", \\\"GCContent\\\": \\\"false\\\", \\\"ComboTrackSelector\\\": \\\"false\\\"}\", \"action\": \"{\\\"action_select\\\": \\\"create\\\", \\\"__current_case__\\\": 0}\", \"gencode\": \"\\\"11\\\"\", \"uglyTestingHack\": \"\\\"\\\"\", \"jbgen\": \"{\\\"trackPadding\\\": \\\"20\\\", \\\"show_tracklist\\\": \\\"true\\\", \\\"show_overview\\\": \\\"true\\\", \\\"show_nav\\\": \\\"true\\\", \\\"aboutDescription\\\": \\\"\\\", \\\"defaultLocation\\\": \\\"\\\", \\\"hideGenomeOptions\\\": \\\"false\\\", \\\"shareLink\\\": \\\"true\\\", \\\"show_menu\\\": \\\"true\\\"}\"}",
-            "tool_version": "1.16.8+galaxy1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "258b4823-aeea-407f-a8a7-fa487ef8b605",
+            "uuid": "560a2655-a7ce-48f4-9ccc-97ace9fa2cec",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "output",
-                    "uuid": "20c46892-169a-44c4-99b9-59f952376311"
+                    "uuid": "7de88bbe-80da-4e08-8b2a-77363daf71a5"
                 }
             ]
         },
@@ -3453,9 +3677,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"inputs\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"queries\": \"[]\"}",
-            "tool_version": "0.1.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "ec0fe07f-a8d5-4c44-95e4-d221c2c4a33a",
+            "uuid": "cb9cba06-6ca0-49db-887d-9609a8b5c9e3",
             "workflow_outputs": []
         },
         "55": {
@@ -3496,9 +3720,9 @@
             },
             "tool_id": "Cut1",
             "tool_state": "{\"columnList\": \"\\\"c1,c5,c6\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"delimiter\": \"\\\"T\\\"\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
-            "tool_version": "1.0.2",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "29c80fbc-d7c3-4286-ad4a-c0b415278694",
+            "uuid": "c02b421c-8277-4f91-92c0-25762fbe74da",
             "workflow_outputs": []
         },
         "56": {
@@ -3556,9 +3780,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"inputs\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"queries\": \"[{\\\"inputs2\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"__index__\\\": 0}]\"}",
-            "tool_version": "0.1.0",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "07c3e18d-40dc-4c55-8524-4ed4c4659410",
+            "uuid": "93468bde-361c-4528-9e2f-add7b83f6b2a",
             "workflow_outputs": []
         },
         "57": {
@@ -3655,9 +3879,9 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"ideogram\": \"{\\\"angle_orientation\\\": \\\"clockwise\\\", \\\"pairwise_spacing\\\": [], \\\"ideogram_labels\\\": {\\\"show_label\\\": \\\"true\\\", \\\"parallel\\\": \\\"true\\\", \\\"radius_offset\\\": \\\"0.075\\\", \\\"size\\\": \\\"36\\\"}, \\\"bands\\\": {\\\"show_bands\\\": \\\"true\\\", \\\"fill_bands\\\": \\\"true\\\", \\\"band_transparency\\\": \\\"3\\\", \\\"band_stroke_color\\\": \\\"#000000\\\", \\\"band_stroke_thickness\\\": \\\"0\\\"}, \\\"spacing\\\": \\\"0.1\\\", \\\"thickness\\\": \\\"30.0\\\", \\\"limit_chromosomes\\\": \\\"\\\", \\\"radius\\\": \\\"0.9\\\", \\\"units\\\": \\\"mb\\\", \\\"angle_offset\\\": \\\"-90\\\", \\\"chromosomes_reverse\\\": \\\"\\\"}\", \"limits\": \"{\\\"max_ticks\\\": \\\"5000\\\", \\\"max_ideograms\\\": \\\"200\\\", \\\"max_points_per_track\\\": \\\"25000\\\", \\\"max_links\\\": \\\"25000\\\"}\", \"plot_options\": \"{\\\"colour_profile\\\": null, \\\"radius\\\": \\\"1500\\\", \\\"background\\\": {\\\"background_select\\\": \\\"color\\\", \\\"background_color\\\": \\\"#ffffff\\\", \\\"__current_case__\\\": 1}}\", \"outputs\": \"{\\\"svg\\\": \\\"false\\\", \\\"tar\\\": \\\"false\\\", \\\"png\\\": \\\"true\\\"}\", \"__rerun_remap_job_id__\": null, \"ticks\": \"{\\\"skip_last_label\\\": \\\"false\\\", \\\"skip_first_label\\\": \\\"true\\\", \\\"radius\\\": \\\"1.0\\\", \\\"tick_group\\\": [{\\\"color\\\": \\\"#000000\\\", \\\"__index__\\\": 0, \\\"ticks\\\": {\\\"format\\\": \\\"%d\\\", \\\"label_offset\\\": \\\"10.0\\\", \\\"show_tick_labels\\\": \\\"yes\\\", \\\"__current_case__\\\": 0, \\\"label_size\\\": \\\"20.0\\\", \\\"format_ext\\\": \\\"true\\\"}, \\\"spacing\\\": \\\"1.0\\\", \\\"size\\\": \\\"20.0\\\"}, {\\\"color\\\": \\\"#7f7f7e\\\", \\\"__index__\\\": 1, \\\"ticks\\\": {\\\"show_tick_labels\\\": \\\"no\\\", \\\"__current_case__\\\": 1}, \\\"spacing\\\": \\\"0.1\\\", \\\"size\\\": \\\"10.0\\\"}]}\", \"scaling\": \"{\\\"zooms\\\": []}\", \"reference_genome\": \"{\\\"ref\\\": {\\\"color\\\": \\\"paired-12-qual\\\", \\\"ref_source\\\": \\\"history\\\", \\\"genome_fasta\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"__current_case__\\\": 2}}\", \"sec_links\": \"{\\\"data\\\": []}\", \"sec_tdd\": \"{\\\"data\\\": [{\\\"sec_rule\\\": {\\\"rules\\\": [{\\\"__index__\\\": 0, \\\"conditions\\\": [{\\\"__index__\\\": 0, \\\"application\\\": {\\\"pos_gt\\\": \\\"\\\", \\\"application_select\\\": \\\"value\\\", \\\"pos_lt\\\": \\\"0.0\\\", \\\"__current_case__\\\": 4}}], \\\"actions\\\": [{\\\"action\\\": {\\\"action_select\\\": \\\"fill_color\\\", \\\"action_value\\\": \\\"#ff0000\\\", \\\"__current_case__\\\": 2}, \\\"__index__\\\": 0}], \\\"continue_flow\\\": \\\"false\\\"}]}, \\\"sec_bkgs\\\": {\\\"backgrounds\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"r0\\\": \\\"0.95\\\", \\\"r1\\\": \\\"0.99\\\", \\\"zdepth\\\": \\\"0\\\", \\\"minsize\\\": \\\"0.0\\\", \\\"sec_axes\\\": {\\\"axes\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"minmax\\\": {\\\"minmax_select\\\": \\\"no\\\", \\\"__current_case__\\\": 1}, \\\"__index__\\\": 0, \\\"plot_format\\\": {\\\"data_source\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"format_specific\\\": {\\\"fill_color\\\": \\\"#0070c0\\\", \\\"stroke_color_alpha\\\": \\\"1.0\\\", \\\"stroke_color\\\": \\\"#000000\\\", \\\"fill_color_alpha\\\": \\\"1.0\\\", \\\"fill_under\\\": \\\"true\\\", \\\"stroke_thickness\\\": \\\"1\\\", \\\"extend_bins\\\": \\\"false\\\"}, \\\"__current_case__\\\": 0, \\\"plot_format_select\\\": \\\"histogram\\\"}, \\\"orientation\\\": \\\"false\\\"}, {\\\"sec_rule\\\": {\\\"rules\\\": []}, \\\"sec_bkgs\\\": {\\\"backgrounds\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"r0\\\": \\\"0.7\\\", \\\"r1\\\": \\\"0.8\\\", \\\"zdepth\\\": \\\"0\\\", \\\"minsize\\\": \\\"0.0\\\", \\\"sec_axes\\\": {\\\"axes\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"minmax\\\": {\\\"minmax_select\\\": \\\"no\\\", \\\"__current_case__\\\": 1}, \\\"__index__\\\": 1, \\\"plot_format\\\": {\\\"data_source\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"format_specific\\\": {\\\"link\\\": {\\\"link_thickness\\\": \\\"2\\\", \\\"link_color\\\": \\\"#ff0000\\\", \\\"link_dims\\\": \\\"1p,6p,10p,6p,1p\\\", \\\"__current_case__\\\": 0, \\\"show_link\\\": \\\"yes\\\"}, \\\"snuggle\\\": {\\\"snuggle_tolerance\\\": \\\"0.5\\\", \\\"snuggle_link_overlap_test\\\": \\\"true\\\", \\\"snuggle_sampling\\\": \\\"2\\\", \\\"snuggle_link_overlap_tolerance\\\": \\\"5.0\\\", \\\"__current_case__\\\": 0, \\\"max_snuggle_distance\\\": \\\"15\\\", \\\"snuggle_refine\\\": \\\"true\\\", \\\"label_snuggle\\\": \\\"yes\\\"}, \\\"label_size\\\": \\\"16\\\"}, \\\"__current_case__\\\": 7, \\\"plot_format_select\\\": \\\"text\\\"}, \\\"orientation\\\": \\\"false\\\"}, {\\\"sec_rule\\\": {\\\"rules\\\": []}, \\\"sec_bkgs\\\": {\\\"backgrounds\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"r0\\\": \\\"0.65\\\", \\\"r1\\\": \\\"0.7\\\", \\\"zdepth\\\": \\\"0\\\", \\\"minsize\\\": \\\"0.0\\\", \\\"sec_axes\\\": {\\\"axes\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"minmax\\\": {\\\"minmax_select\\\": \\\"no\\\", \\\"__current_case__\\\": 1}, \\\"__index__\\\": 2, \\\"plot_format\\\": {\\\"data_source\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"format_specific\\\": {\\\"layers\\\": \\\"15\\\", \\\"fill_color\\\": \\\"#000000\\\", \\\"stroke_color_alpha\\\": \\\"1.0\\\", \\\"stroke_color\\\": \\\"#000000\\\", \\\"fill_color_alpha\\\": \\\"1.0\\\", \\\"thickness\\\": \\\"15.0\\\", \\\"padding\\\": \\\"8.0\\\", \\\"stroke_thickness\\\": \\\"1\\\", \\\"overflow\\\": {\\\"__current_case__\\\": 0, \\\"overflow_behavior\\\": \\\"hide\\\"}, \\\"margin\\\": \\\"0.002\\\"}, \\\"__current_case__\\\": 6, \\\"plot_format_select\\\": \\\"tile\\\"}, \\\"orientation\\\": \\\"false\\\"}, {\\\"sec_rule\\\": {\\\"rules\\\": []}, \\\"sec_bkgs\\\": {\\\"backgrounds\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"r0\\\": \\\"0.6\\\", \\\"r1\\\": \\\"0.65\\\", \\\"zdepth\\\": \\\"0\\\", \\\"minsize\\\": \\\"0.0\\\", \\\"sec_axes\\\": {\\\"axes\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"minmax\\\": {\\\"minmax_select\\\": \\\"no\\\", \\\"__current_case__\\\": 1}, \\\"__index__\\\": 3, \\\"plot_format\\\": {\\\"data_source\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"format_specific\\\": {\\\"layers\\\": \\\"15\\\", \\\"fill_color\\\": \\\"#0070c0\\\", \\\"stroke_color_alpha\\\": \\\"1.0\\\", \\\"stroke_color\\\": \\\"#000000\\\", \\\"fill_color_alpha\\\": \\\"1.0\\\", \\\"thickness\\\": \\\"15.0\\\", \\\"padding\\\": \\\"8.0\\\", \\\"stroke_thickness\\\": \\\"0\\\", \\\"overflow\\\": {\\\"__current_case__\\\": 0, \\\"overflow_behavior\\\": \\\"hide\\\"}, \\\"margin\\\": \\\"0.002\\\"}, \\\"__current_case__\\\": 6, \\\"plot_format_select\\\": \\\"tile\\\"}, \\\"orientation\\\": \\\"false\\\"}, {\\\"sec_rule\\\": {\\\"rules\\\": []}, \\\"sec_bkgs\\\": {\\\"backgrounds\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"r0\\\": \\\"0.55\\\", \\\"r1\\\": \\\"0.6\\\", \\\"zdepth\\\": \\\"0\\\", \\\"minsize\\\": \\\"0.0\\\", \\\"sec_axes\\\": {\\\"axes\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"minmax\\\": {\\\"minmax_select\\\": \\\"no\\\", \\\"__current_case__\\\": 1}, \\\"__index__\\\": 4, \\\"plot_format\\\": {\\\"data_source\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"format_specific\\\": {\\\"layers\\\": \\\"15\\\", \\\"fill_color\\\": \\\"#ff0000\\\", \\\"stroke_color_alpha\\\": \\\"1.0\\\", \\\"stroke_color\\\": \\\"#000000\\\", \\\"fill_color_alpha\\\": \\\"1.0\\\", \\\"thickness\\\": \\\"15.0\\\", \\\"padding\\\": \\\"8.0\\\", \\\"stroke_thickness\\\": \\\"0\\\", \\\"overflow\\\": {\\\"__current_case__\\\": 0, \\\"overflow_behavior\\\": \\\"hide\\\"}, \\\"margin\\\": \\\"0.002\\\"}, \\\"__current_case__\\\": 6, \\\"plot_format_select\\\": \\\"tile\\\"}, \\\"orientation\\\": \\\"false\\\"}, {\\\"sec_rule\\\": {\\\"rules\\\": []}, \\\"sec_bkgs\\\": {\\\"backgrounds\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"r0\\\": \\\"0.3\\\", \\\"r1\\\": \\\"0.55\\\", \\\"zdepth\\\": \\\"0\\\", \\\"minsize\\\": \\\"0.0\\\", \\\"sec_axes\\\": {\\\"axes\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"minmax\\\": {\\\"minmax_select\\\": \\\"no\\\", \\\"__current_case__\\\": 1}, \\\"__index__\\\": 5, \\\"plot_format\\\": {\\\"data_source\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"format_specific\\\": {\\\"layers\\\": \\\"40\\\", \\\"fill_color\\\": \\\"#76923c\\\", \\\"stroke_color_alpha\\\": \\\"1.0\\\", \\\"stroke_color\\\": \\\"#000000\\\", \\\"fill_color_alpha\\\": \\\"1.0\\\", \\\"thickness\\\": \\\"5.0\\\", \\\"padding\\\": \\\"8.0\\\", \\\"stroke_thickness\\\": \\\"0\\\", \\\"overflow\\\": {\\\"__current_case__\\\": 0, \\\"overflow_behavior\\\": \\\"hide\\\"}, \\\"margin\\\": \\\"0.002\\\"}, \\\"__current_case__\\\": 6, \\\"plot_format_select\\\": \\\"tile\\\"}, \\\"orientation\\\": \\\"true\\\"}, {\\\"sec_rule\\\": {\\\"rules\\\": []}, \\\"sec_bkgs\\\": {\\\"backgrounds\\\": [], \\\"only_if_data\\\": \\\"always\\\"}, \\\"r0\\\": \\\"0.8\\\", \\\"r1\\\": \\\"0.95\\\", \\\"zdepth\\\": \\\"0\\\", \\\"minsize\\\": \\\"0.0\\\", \\\"sec_axes\\\": {\\\"axes\\\": [{\\\"radial_position\\\": {\\\"spacing\\\": \\\"1.0\\\", \\\"__current_case__\\\": 1, \\\"select\\\": \\\"data\\\"}, \\\"color\\\": \\\"#000000\\\", \\\"color_alpha\\\": \\\"1.0\\\", \\\"y0\\\": \\\"0.0\\\", \\\"y1\\\": \\\"20.0\\\", \\\"__index__\\\": 0, \\\"thickness\\\": \\\"1\\\"}], \\\"only_if_data\\\": \\\"always\\\"}, \\\"minmax\\\": {\\\"minmax_select\\\": \\\"no\\\", \\\"__current_case__\\\": 1}, \\\"__index__\\\": 6, \\\"plot_format\\\": {\\\"data_source\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"format_specific\\\": {\\\"fill_color\\\": \\\"#7030a0\\\", \\\"stroke_color_alpha\\\": \\\"1.0\\\", \\\"stroke_color\\\": \\\"#000000\\\", \\\"fill_color_alpha\\\": \\\"0.6\\\", \\\"fill_under\\\": \\\"true\\\", \\\"stroke_thickness\\\": \\\"1\\\", \\\"extend_bins\\\": \\\"false\\\"}, \\\"__current_case__\\\": 0, \\\"plot_format_select\\\": \\\"histogram\\\"}, \\\"orientation\\\": \\\"false\\\"}]}\"}",
-            "tool_version": "0.69.8+galaxy5",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "1ef7a29c-f496-4ec5-aa3a-efb16a1fe34d",
+            "uuid": "3cf268b5-677c-4a35-a9bf-79c1cebde073",
             "workflow_outputs": []
         },
         "58": {
@@ -3698,9 +3922,9 @@
             },
             "tool_id": "Cut1",
             "tool_state": "{\"columnList\": \"\\\"c1,c2,c3,c13,c14,c7,c12,c11,c5,c6\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"delimiter\": \"\\\"T\\\"\", \"__rerun_remap_job_id__\": null, \"__page__\": null}",
-            "tool_version": "1.0.2",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "f0c1833b-6dd6-45e7-b956-916f23f6c368",
+            "uuid": "038338c9-9cd0-43b7-b901-cea13ee2f64b",
             "workflow_outputs": []
         },
         "59": {
@@ -3774,18 +3998,20 @@
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"__page__\": null, \"tabs\": \"[{\\\"content\\\": [{\\\"__index__\\\": 0, \\\"filetype\\\": {\\\"break\\\": \\\"false\\\", \\\"md\\\": \\\"false\\\", \\\"itemtype\\\": \\\"textfile\\\", \\\"__current_case__\\\": 1, \\\"item\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}}}, {\\\"__index__\\\": 1, \\\"filetype\\\": {\\\"__current_case__\\\": 4, \\\"itemtype\\\": \\\"image\\\", \\\"align\\\": \\\"none\\\", \\\"zoomlevel\\\": \\\"600\\\", \\\"item\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"zoomenable\\\": \\\"true\\\", \\\"break\\\": \\\"false\\\"}}], \\\"__index__\\\": 0, \\\"tabtitle\\\": \\\"Read Quality\\\"}, {\\\"content\\\": [{\\\"__index__\\\": 0, \\\"filetype\\\": {\\\"break\\\": \\\"false\\\", \\\"itemtype\\\": \\\"htmlfile\\\", \\\"height\\\": \\\"900\\\", \\\"ireport\\\": \\\"false\\\", \\\"item\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"__current_case__\\\": 2}}], \\\"__index__\\\": 1, \\\"tabtitle\\\": \\\"Full NanoPlot Quality Report\\\"}, {\\\"content\\\": [{\\\"__index__\\\": 0, \\\"filetype\\\": {\\\"__current_case__\\\": 4, \\\"itemtype\\\": \\\"image\\\", \\\"align\\\": \\\"none\\\", \\\"zoomlevel\\\": \\\"1000\\\", \\\"item\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"zoomenable\\\": \\\"true\\\", \\\"break\\\": \\\"false\\\"}}, {\\\"__index__\\\": 1, \\\"filetype\\\": {\\\"minh\\\": \\\"0\\\", \\\"collink\\\": {\\\"columnhyperlink\\\": \\\"N\\\", \\\"__current_case__\\\": 1}, \\\"itemtype\\\": \\\"table\\\", \\\"fancy\\\": \\\"true\\\", \\\"break\\\": \\\"false\\\", \\\"item\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"__current_case__\\\": 5, \\\"minw\\\": \\\"0\\\"}}], \\\"__index__\\\": 2, \\\"tabtitle\\\": \\\"Contigs\\\"}, {\\\"content\\\": [{\\\"__index__\\\": 0, \\\"filetype\\\": {\\\"minh\\\": \\\"0\\\", \\\"collink\\\": {\\\"columnhyperlink\\\": \\\"N\\\", \\\"__current_case__\\\": 1}, \\\"itemtype\\\": \\\"table\\\", \\\"fancy\\\": \\\"true\\\", \\\"break\\\": \\\"false\\\", \\\"item\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"__current_case__\\\": 5, \\\"minw\\\": \\\"0\\\"}}, {\\\"__index__\\\": 1, \\\"filetype\\\": {\\\"__current_case__\\\": 4, \\\"itemtype\\\": \\\"image\\\", \\\"align\\\": \\\"none\\\", \\\"zoomlevel\\\": \\\"1000\\\", \\\"item\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"zoomenable\\\": \\\"true\\\", \\\"break\\\": \\\"false\\\"}}, {\\\"__index__\\\": 2, \\\"filetype\\\": {\\\"break\\\": \\\"false\\\", \\\"md\\\": \\\"true\\\", \\\"itemtype\\\": \\\"text\\\", \\\"__current_case__\\\": 0, \\\"item\\\": \\\"The Circos plots the ten longest contigs assembled, and includes the following tracks, from **outside to inside**:\\\\n\\\\n- Contig region\\\\n- GC skew\\\\n  - red is negative\\\\n  - blue is positive skew\\\\n- Sequencing Depth in Purple\\\\n  - The ground line is 1-fold coverage\\\\n  - The first line is 10-fold coverage\\\\n  - The second line is 100-fold coverage\\\\n  - The third line is 1000-fold coverage\\\\n- staramr identified resistance genes\\\\n- prokka annotated genes (blue are + strand, red are - strand)\\\\n- blast hits in the green pileups. These are filtered forlonger than 25kb (first 25k hits, circos limits potential inputs). See BLASTn tab for more information.\\\"}}], \\\"__index__\\\": 3, \\\"tabtitle\\\": \\\"Resistance\\\"}, {\\\"content\\\": [{\\\"__index__\\\": 0, \\\"filetype\\\": {\\\"break\\\": \\\"false\\\", \\\"md\\\": \\\"true\\\", \\\"itemtype\\\": \\\"text\\\", \\\"__current_case__\\\": 0, \\\"item\\\": \\\"# Annotations from Prokka\\\"}}, {\\\"__index__\\\": 1, \\\"filetype\\\": {\\\"minh\\\": \\\"0\\\", \\\"collink\\\": {\\\"columnhyperlink\\\": \\\"N\\\", \\\"__current_case__\\\": 1}, \\\"itemtype\\\": \\\"table\\\", \\\"fancy\\\": \\\"true\\\", \\\"break\\\": \\\"false\\\", \\\"item\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"__current_case__\\\": 5, \\\"minw\\\": \\\"0\\\"}}], \\\"__index__\\\": 4, \\\"tabtitle\\\": \\\"Annotations\\\"}, {\\\"content\\\": [{\\\"__index__\\\": 0, \\\"filetype\\\": {\\\"minh\\\": \\\"600\\\", \\\"collink\\\": {\\\"urlitems\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"urlsuffix\\\": \\\"\\\", \\\"columnhyperlink\\\": \\\"Y\\\", \\\"urlprefix\\\": \\\"https://www.ncbi.nlm.nih.gov/genome/?term=\\\", \\\"urlcol\\\": \\\"8\\\", \\\"__current_case__\\\": 0}, \\\"itemtype\\\": \\\"table\\\", \\\"fancy\\\": \\\"true\\\", \\\"break\\\": \\\"false\\\", \\\"item\\\": {\\\"__class__\\\": \\\"RuntimeValue\\\"}, \\\"__current_case__\\\": 5, \\\"minw\\\": \\\"1000\\\"}}], \\\"__index__\\\": 5, \\\"tabtitle\\\": \\\"BLASTn\\\"}]\", \"coverimage\": \"\\\"\\\"\", \"label\": \"\\\"NanoGalaxy\\\"\", \"minwidth\": \"\\\"1200\\\"\", \"proxy\": \"\\\"galaxy\\\"\", \"__rerun_remap_job_id__\": null, \"localhost\": \"\\\"https://bioinf-galaxian.erasmusmc.nl/galaxy\\\"\"}",
-            "tool_version": "1",
+            "tool_version": null,
             "type": "tool",
-            "uuid": "628fe003-3fcc-49f8-ba0a-0213b82b6b54",
+            "uuid": "f5c091db-4413-4d40-9788-669025d9829b",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "report",
-                    "uuid": "f6f207ea-199b-490b-9419-a54c93b17a99"
+                    "uuid": "7ad267c1-bd26-4e31-86c5-b52558c4e92b"
                 }
             ]
         }
     },
-    "tags": [],
-    "uuid": "9fc8ef26-e829-4ea7-b742-3fe41ba88cb1"
+    "tags": [
+        "wmdi"
+    ],
+    "uuid": "be297f6e-7ea8-45ba-b534-90fca8634407"
 }
