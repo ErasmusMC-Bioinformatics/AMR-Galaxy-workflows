@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+# WMDI Analysis Pipelines
 
-You can use the [editor on GitHub](https://github.com/ErasmusMC-Bioinformatics/WMDI-Workflows/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+[Astrid: Short intro]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Pipelines (Workflows)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Below are the latest versions of the Galaxy workflows
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+| Workflow                | Description | version |
+|-------------------------|-------------|---------|
+| Flye                    |             |         |
+| Unicycler hybrid        |             |         |
+| Unicycler long-read     |             |         |
+| Unicycler short-read    |             |         |
+| Miniasm/Minimap/Racon   |             |         |
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Running the pipelines
 
-**Bold** and _Italic_ and `Code` text
+These workflows can be imported into the Galaxy server of your choice.
 
-[Link](url) and ![Image](src)
-```
+The European Galaxy server ([usegalaxy.eu](https://usegalaxy.eu) is free to use for anybody (default 250 GB of data storage)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Importing the Workflows
 
-### Jekyll Themes
+1. Log in or Register at [Galaxy EU](https://usegalaxy.eu)
+2. Copy the URL of the workflow from the table above (or download the file to your computer)
+3. Follow the [instructions to import the workflow into Galaxy](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_import.html)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ErasmusMC-Bioinformatics/WMDI-Workflows/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+## Learning Galaxy
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+
