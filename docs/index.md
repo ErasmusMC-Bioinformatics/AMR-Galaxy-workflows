@@ -8,13 +8,13 @@
 Below are the latest versions of the Galaxy workflows
 
 
-| Workflow                | Description | version |
-|-------------------------|-------------|---------|
-| Flye                    |             |         |
-| Unicycler hybrid        |             |         |
-| Unicycler long-read     |             |         |
-| Unicycler short-read    |             |         |
-| Miniasm/Minimap/Racon   |             |         |
+| Workflow                | Description                                      | Version |
+|-------------------------|--------------------------------------------------|---------|
+| Flye                    | Pipeline using the Flye assembler                |         |
+| Unicycler hybrid        | Unicycler assembler on both short and long Reads |         |
+| Unicycler long-read     | Unicycler assembler on long read data            |         |
+| Unicycler short-read    | Unicycler assembler on short read data           |         |
+| Miniasm/Minimap/Racon   | Superceded by Unicycler workflows                |         |
 
 
 ## Running the pipelines
