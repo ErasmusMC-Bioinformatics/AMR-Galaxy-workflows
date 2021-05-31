@@ -18,35 +18,47 @@ Below are the latest versions of the Galaxy workflows (pipelines)
 
 
 
-## Example outputs
-
-
-
 ## Running the pipelines
 
 - These workflows can be imported into the Galaxy server of your choice.
 - We recommend using the European Galaxy server ([usegalaxy.eu](https://usegalaxy.eu)); it is free to use for anybody with a default of 250 GB of data storage.
 
 
-### Importing the Workflows into Galaxy
+### 1. Importing the Workflows into Galaxy
 
 
 1. Log in or register at the Galaxy server of your choice (e.g. [Galaxy EU](https://usegalaxy.eu))
 2. Copy the URL of the workflow from the table above (or download the file to your computer)
 3. Follow the [instructions to import the workflow into Galaxy](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_import.html)
 4. Upload your data into Galaxy
-5. Run the workflow
+
+### 2. Running the workflow
+
+1. Start a new history
+2. Upload your data
+3. Create a collection with all your dataset in it ([instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/collections_build_list.html))
+4. Start the workflow
 
 
-### Viewing the results
+### 3. Viewing the results
 
-TODO
+1. Go to **"User"** in the top menu bar
+2. Click on **"Workflow invocations"**
+  - Here you will see all the workflows you have run
+  - Click on your workflow name to expand it
+3. Click on **View report**
+  ![screenshot of button to click for workflow report](images/screenshot_workflow_invocations.png)
+4. You should see a report file a little like this:
+  ![example of a workflow report](images/screenshot_workflow_report.png)
+
 
 ## Learning Galaxy
 
 There are a large number of tutorial around using Galaxy and performing a variety of scientific analyses. See the [Galaxy Training Network (GTN)](https://training.galaxyproject.org) for all tutorials.
 
+
 ## About the Tools
 
 - [Flye documentation](https://github.com/fenderglass/Flye/blob/flye/docs/USAGE.md)
+- [Medaka documentation](https://nanoporetech.github.io/medaka/)
 
