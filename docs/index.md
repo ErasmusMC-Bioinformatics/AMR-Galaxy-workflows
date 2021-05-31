@@ -30,7 +30,10 @@ Below are the latest versions of the Galaxy workflows (pipelines)
 1. Log in or register at the Galaxy server of your choice (e.g. [Galaxy EU](https://usegalaxy.eu))
 2. Copy the URL of the workflow from the table above (or download the file to your computer)
 3. Follow the [instructions to import the workflow into Galaxy](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_import.html)
-4. Upload your data into Galaxy
+
+### 2. Uplaoding your data into Galaxy
+
+1. Upload your data to Galaxy
 
 ### 2. Running the workflow
 
@@ -42,6 +45,10 @@ Below are the latest versions of the Galaxy workflows (pipelines)
 
 ### 3. Viewing the results
 
+#### A. Viewing the workflow report
+
+Galaxy will create a workflow report for you with the various outputs combined into a single page.
+
 1. Go to **"User"** in the top menu bar
 2. Click on **"Workflow invocations"**
   - Here you will see all the workflows you have run
@@ -52,7 +59,14 @@ Below are the latest versions of the Galaxy workflows (pipelines)
   ![example of a workflow report](images/screenshot_workflow_report.png)
 
 
-## Learning Galaxy
+This page can also be downloaded as a PDF.
+
+#### B. View the full analysis history
+
+To see more outputs, you can also browse the Galaxy *history*.
+
+
+## Further Learning around Galaxy
 
 There are a large number of tutorial around using Galaxy and performing a variety of scientific analyses. See the [Galaxy Training Network (GTN)](https://training.galaxyproject.org) for all tutorials.
 
