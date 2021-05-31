@@ -3,35 +3,48 @@
 [Astrid: Short intro]
 
 
-## Pipelines (Workflows)
+## Quickstart: Pipelines
 
-Below are the latest versions of the Galaxy workflows
+Below are the latest versions of the Galaxy workflows (pipelines)
 
 
 | Workflow                | Description                                      | Version |
 |-------------------------|--------------------------------------------------|---------|
-| Flye                    | Pipeline using the Flye assembler                |         |
+| [Flye long-reads](../Flye_longreads_v3.4.ga)         | Pipeline using the Flye assembler on long reads  |  3.4    |
 | Unicycler hybrid        | Unicycler assembler on both short and long reads |         |
 | Unicycler long-read     | Unicycler assembler on long read data            |         |
 | Unicycler short-read    | Unicycler assembler on short read data           |         |
 | Miniasm/Minimap/Racon   | Superseded by Unicycler workflows                |         |
 
 
+
+## Example outputs
+
+
+
 ## Running the pipelines
 
-These workflows can be imported into the Galaxy server of your choice.
+- These workflows can be imported into the Galaxy server of your choice.
 
-The European Galaxy server ([usegalaxy.eu](https://usegalaxy.eu) is free to use for anybody (default 250 GB of data storage)
+- We recommend using the European Galaxy server ([usegalaxy.eu](https://usegalaxy.eu); it is free to use for anybody (default 250 GB of data storage).
 
-### Importing the Workflows
 
-1. Log in or Register at [Galaxy EU](https://usegalaxy.eu)
+### Importing the Workflows into Galaxy
+
+
+1. Log in or register at the Galaxy server of your choice (e.g. [Galaxy EU](https://usegalaxy.eu))
 2. Copy the URL of the workflow from the table above (or download the file to your computer)
 3. Follow the [instructions to import the workflow into Galaxy](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_import.html)
+4. Upload your data into Galaxy
+5. Run the workflow
+
 
 
 ## Learning Galaxy
 
+There are a large number of tutorial around using Galaxy and performing a variety of scientific analyses. See the [Galaxy Training Network (GTN)](https://training.galaxyproject.org) for all tutorials.
 
+## About the Tools
 
+- [Flye documentation](https://github.com/fenderglass/Flye/blob/flye/docs/USAGE.md)
 
