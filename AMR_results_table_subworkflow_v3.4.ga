@@ -1,0 +1,402 @@
+{
+    "a_galaxy_workflow": "true",
+    "annotation": "",
+    "format-version": "0.1",
+    "name": "AMR results table (subworkflow)",
+    "steps": {
+        "0": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 0,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Plasflow probability table"
+                }
+            ],
+            "label": "Plasflow probability table",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "bottom": 429.1999969482422,
+                "height": 82.19999694824219,
+                "left": -141,
+                "right": 59,
+                "top": 347,
+                "width": 200,
+                "x": -141,
+                "y": 347
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "996516c2-d64e-437e-bac0-39c74f632c15",
+            "workflow_outputs": []
+        },
+        "1": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 1,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "staramr - plasmids"
+                }
+            ],
+            "label": "staramr - plasmids",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "bottom": 595.1999969482422,
+                "height": 82.19999694824219,
+                "left": -145,
+                "right": 55,
+                "top": 513,
+                "width": 200,
+                "x": -145,
+                "y": 513
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "ae593caa-a4ef-4350-93d6-e80e2c5bc2cf",
+            "workflow_outputs": []
+        },
+        "2": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 2,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "staramr - resfinder"
+                }
+            ],
+            "label": "staramr - resfinder",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "bottom": 741.1999969482422,
+                "height": 82.19999694824219,
+                "left": -151,
+                "right": 49,
+                "top": 659,
+                "width": 200,
+                "x": -151,
+                "y": 659
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "e3dd8b0b-8fdc-40cd-8157-a71b36a54a67",
+            "workflow_outputs": []
+        },
+        "3": {
+            "annotation": "",
+            "content_id": "Cut1",
+            "errors": null,
+            "id": 3,
+            "input_connections": {
+                "input": {
+                    "id": 0,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Cut",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 439.1999969482422,
+                "height": 93.19999694824219,
+                "left": 169.5,
+                "right": 369.5,
+                "top": 346,
+                "width": 200,
+                "x": 169.5,
+                "y": 346
+            },
+            "post_job_actions": {
+                "HideDatasetActionout_file1": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "out_file1"
+                }
+            },
+            "tool_id": "Cut1",
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"columnList\": \"c2,c3,c4,c6\", \"delimiter\": \"T\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "650626b3-8e84-4b87-90af-1c10ad57519d",
+            "workflow_outputs": []
+        },
+        "4": {
+            "annotation": "",
+            "content_id": "Cut1",
+            "errors": null,
+            "id": 4,
+            "input_connections": {
+                "input": {
+                    "id": 1,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Cut",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 603.1999969482422,
+                "height": 93.19999694824219,
+                "left": 175.5,
+                "right": 375.5,
+                "top": 510,
+                "width": 200,
+                "x": 175.5,
+                "y": 510
+            },
+            "post_job_actions": {
+                "HideDatasetActionout_file1": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "out_file1"
+                }
+            },
+            "tool_id": "Cut1",
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"columnList\": \"c2,c6,c7,c8\", \"delimiter\": \"T\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "ab68a7d9-c611-48aa-a708-4627ce706f56",
+            "workflow_outputs": []
+        },
+        "5": {
+            "annotation": "",
+            "content_id": "Cut1",
+            "errors": null,
+            "id": 5,
+            "input_connections": {
+                "input": {
+                    "id": 2,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Cut",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 757.1999969482422,
+                "height": 93.19999694824219,
+                "left": 174.5,
+                "right": 374.5,
+                "top": 664,
+                "width": 200,
+                "x": 174.5,
+                "y": 664
+            },
+            "post_job_actions": {
+                "HideDatasetActionout_file1": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "out_file1"
+                }
+            },
+            "tool_id": "Cut1",
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"columnList\": \"c2,c3,c7,c8,c9\", \"delimiter\": \"T\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "3e3d52d8-f754-4bcf-9d7d-bff46ceebdc4",
+            "workflow_outputs": []
+        },
+        "6": {
+            "annotation": "",
+            "content_id": "join1",
+            "errors": null,
+            "id": 6,
+            "input_connections": {
+                "input1": {
+                    "id": 3,
+                    "output_name": "out_file1"
+                },
+                "input2": {
+                    "id": 4,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Join two Datasets",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 541,
+                "height": 144,
+                "left": 520.5,
+                "right": 720.5,
+                "top": 397,
+                "width": 200,
+                "x": 520.5,
+                "y": 397
+            },
+            "post_job_actions": {
+                "HideDatasetActionout_file1": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "out_file1"
+                }
+            },
+            "tool_id": "join1",
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"field1\": \"2\", \"field2\": \"2\", \"fill_empty_columns\": {\"fill_empty_columns_switch\": \"fill_empty\", \"__current_case__\": 1, \"fill_columns_by\": \"fill_unjoined_only\", \"do_fill_empty_columns\": {\"column_fill_type\": \"single_fill_value\", \"__current_case__\": 0, \"fill_value\": \".\"}}, \"header\": \"-H\", \"input1\": {\"__class__\": \"ConnectedValue\"}, \"input2\": {\"__class__\": \"ConnectedValue\"}, \"partial\": \"-p\", \"unmatched\": \"-u\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "b31fc78c-4f4d-4183-b5d8-ec672c6cde47",
+            "workflow_outputs": []
+        },
+        "7": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/column_arrange_by_header/bg_column_arrange_by_header/0.2",
+            "errors": null,
+            "id": 7,
+            "input_connections": {
+                "param_input": {
+                    "id": 5,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Column arrange",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 761.6000061035156,
+                "height": 113.60000610351562,
+                "left": 521.5,
+                "right": 721.5,
+                "top": 648,
+                "width": 200,
+                "x": 521.5,
+                "y": 648
+            },
+            "post_job_actions": {
+                "HideDatasetActionoutput": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "output"
+                }
+            },
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/column_arrange_by_header/bg_column_arrange_by_header/0.2",
+            "tool_shed_repository": {
+                "changeset_revision": "6c6d26ff01ff",
+                "name": "column_arrange_by_header",
+                "owner": "bgruening",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"discard_remaining\": \"false\", \"param_input\": {\"__class__\": \"ConnectedValue\"}, \"rep_param_columns\": [{\"__index__\": 0, \"param_column\": \"Contig\"}, {\"__index__\": 1, \"param_column\": \"Gene\"}, {\"__index__\": 2, \"param_column\": \"Predicted Phenotype\"}, {\"__index__\": 3, \"param_column\": \"Start\"}, {\"__index__\": 4, \"param_column\": \"End\"}], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "10ee8613-8157-4824-93fd-a75954307ec6",
+            "workflow_outputs": []
+        },
+        "8": {
+            "annotation": "",
+            "content_id": "join1",
+            "errors": null,
+            "id": 8,
+            "input_connections": {
+                "input1": {
+                    "id": 6,
+                    "output_name": "out_file1"
+                },
+                "input2": {
+                    "id": 7,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [
+                {
+                    "description": "runtime parameter for tool Join two Datasets",
+                    "name": "input1"
+                },
+                {
+                    "description": "runtime parameter for tool Join two Datasets",
+                    "name": "input2"
+                }
+            ],
+            "label": null,
+            "name": "Join two Datasets",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "bottom": 661,
+                "height": 144,
+                "left": 837.5,
+                "right": 1037.5,
+                "top": 517,
+                "width": 200,
+                "x": 837.5,
+                "y": 517
+            },
+            "post_job_actions": {
+                "RenameDatasetActionout_file1": {
+                    "action_arguments": {
+                        "newname": "Results table"
+                    },
+                    "action_type": "RenameDatasetAction",
+                    "output_name": "out_file1"
+                }
+            },
+            "tool_id": "join1",
+            "tool_state": "{\"field1\": \"2\", \"field2\": \"1\", \"fill_empty_columns\": {\"fill_empty_columns_switch\": \"fill_empty\", \"__current_case__\": 1, \"fill_columns_by\": \"fill_unjoined_only\", \"do_fill_empty_columns\": {\"column_fill_type\": \"single_fill_value\", \"__current_case__\": 0, \"fill_value\": \".\"}}, \"header\": \"-H\", \"input1\": {\"__class__\": \"RuntimeValue\"}, \"input2\": {\"__class__\": \"RuntimeValue\"}, \"partial\": \"-p\", \"unmatched\": \"-u\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": null,
+            "type": "tool",
+            "uuid": "59eefcc5-ad54-4ff5-9f30-43d127bea1fb",
+            "workflow_outputs": [
+                {
+                    "label": "Results table",
+                    "output_name": "out_file1",
+                    "uuid": "716536f5-d554-4253-8b88-5df4fc3cc53b"
+                }
+            ]
+        }
+    },
+    "tags": [],
+    "uuid": "c235742d-edea-45ad-be29-4da83059e449",
+    "version": 5
+}
