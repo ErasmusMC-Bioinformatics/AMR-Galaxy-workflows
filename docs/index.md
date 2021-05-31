@@ -10,13 +10,14 @@ Below are the latest versions of the Galaxy workflows (pipelines)
 
 | Workflow                | Description                                      | Version |
 |-------------------------|--------------------------------------------------|---------|
-| [Flye long-reads](../Flye_longreads_v3.4.ga)         | Pipeline using the Flye assembler on long reads  |  3.4    |
+| [Flye](../Flye_longreads_v3.4.ga)         | Pipeline using the Flye assembler on long read data  |  3.4    |
 | Unicycler hybrid        | Unicycler assembler on both short and long reads |         |
 | Unicycler long-read     | Unicycler assembler on long read data            |         |
 | Unicycler short-read    | Unicycler assembler on short read data           |         |
 | Miniasm/Minimap/Racon   | Superseded by Unicycler workflows                |         |
 
 
+Note: The Unicycler tool runs multiple rounds of Miniasm/Minimap/Racon, until no furhter improvement is found. The Miniasm/Minimap/Racon workflow listed in this table does only one such round and is provided here for testing and comparison purposes, but in most cases the Unicycler pipeline will be preferred.
 
 ## Running the pipelines
 
@@ -34,7 +35,7 @@ Below are the latest versions of the Galaxy workflows (pipelines)
 
 ### 2. Running the workflow
 
-1. Start a new history
+1. Start a new history ([instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_create_new.html))
 2. Upload your data
 3. Create a collection with all your dataset in it ([instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/collections_build_list.html))
 4. Start the workflow ([instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_run.html))
