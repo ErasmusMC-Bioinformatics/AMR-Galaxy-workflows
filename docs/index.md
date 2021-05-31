@@ -37,7 +37,7 @@ Below are the latest versions of the Galaxy workflows (pipelines)
 1. Start a new history
 2. Upload your data
 3. Create a collection with all your dataset in it ([instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/collections_build_list.html))
-4. Start the workflow
+4. Start the workflow ([instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_run.html))
 
 
 ### 3. Viewing the results
