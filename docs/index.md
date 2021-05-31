@@ -17,7 +17,7 @@ Below are the latest versions of the Galaxy workflows (pipelines)
 | Miniasm/Minimap/Racon   | Superseded by Unicycler workflows                |         |
 
 
-Note: The Unicycler tool runs multiple rounds of Miniasm/Minimap/Racon, until no furhter improvement is found. The Miniasm/Minimap/Racon workflow listed in this table does only one such round and is provided here for testing and comparison purposes, but in most cases the Unicycler pipeline will be preferred.
+**Note:** The Unicycler tool runs multiple rounds of Miniasm/Minimap/Racon, until no furhter improvement is found. The Miniasm/Minimap/Racon workflow listed in this table does only one such round and is provided here for testing and comparison purposes. In most cases the Unicycler pipeline will be preferred.
 
 ## Running the pipelines
 
