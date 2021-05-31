@@ -31,9 +31,6 @@ Below are the latest versions of the Galaxy workflows (pipelines)
 2. Copy the URL of the workflow from the table above (or download the file to your computer)
 3. Follow the [instructions to import the workflow into Galaxy](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_import.html)
 
-### 2. Uplaoding your data into Galaxy
-
-1. Upload your data to Galaxy
 
 ### 2. Running the workflow
 
