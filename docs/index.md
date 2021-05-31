@@ -25,8 +25,7 @@ Below are the latest versions of the Galaxy workflows (pipelines)
 ## Running the pipelines
 
 - These workflows can be imported into the Galaxy server of your choice.
-
-- We recommend using the European Galaxy server ([usegalaxy.eu](https://usegalaxy.eu); it is free to use for anybody (default 250 GB of data storage).
+- We recommend using the European Galaxy server ([usegalaxy.eu](https://usegalaxy.eu)); it is free to use for anybody with a default of 250 GB of data storage.
 
 
 ### Importing the Workflows into Galaxy
@@ -39,6 +38,9 @@ Below are the latest versions of the Galaxy workflows (pipelines)
 5. Run the workflow
 
 
+### Viewing the results
+
+TODO
 
 ## Learning Galaxy
 
