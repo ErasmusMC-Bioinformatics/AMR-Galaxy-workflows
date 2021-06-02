@@ -61,7 +61,9 @@ This page can also be downloaded as a PDF.
 
 #### B. View the full analysis history
 
-To see more outputs, you can also browse the Galaxy *history*.
+To see more outputs, you can also browse the Galaxy *history*. Here you browse and download all the created output files
+
+![](images/screenshot_history.png)
 
 
 ## Further Learning around Galaxy
