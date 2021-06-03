@@ -1,4 +1,4 @@
-# WMDI Analysis Pipelines
+# EMC Analysis Pipelines
 
 [Astrid: Short intro]
 
