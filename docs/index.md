@@ -66,7 +66,7 @@ Below are screenshot of the results from the [example Galaxy run](https://usegal
 
 #### Bandage Assembly plot
 
-![](images/bandage.png)
+![](images/bandage.jpeg)
 
 #### Circos Plot
 
