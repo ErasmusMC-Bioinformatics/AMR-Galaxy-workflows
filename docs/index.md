@@ -1,11 +1,14 @@
-# EMC Analysis Pipelines for WMDI
+# EMC Galaxy Pipelines: Antimicrobial Analysis of Long-read data using Flye.
 
-[Astrid: Short intro]
+Rapid detection of resistant bacteria and corresponding antimicrobial resistance (AMR) mechanisms is of vital importance for adequate patient care, and prevention of further spread of resistant bacteria between patients in the hospital and in society. Mechanisms of antimicrobial resistance are encoded in the genome (chromosome and plasmids) of the bacteria. Plasmids in particular often encode multiple resistance genes, and can be relatively easily transfered from one bacteria to another, both within and between species. Therefore, plasmids are an important vector in the spread of resistance.
 
+For rapid plasmid AMR detection, [Oxford Nanopore Technologies](https://nanoporetech.com) sequencing is very interesting. This techniques allows for the sequencing of long DNA-fragments (> 100.000 bp). Using these long reads, the full bacterial genome can be assembled, and we can distinguish between chromosomal and plasmid DNA. This allows us to determine whether resistance is encoded on the chromosome or on a plasmid, and allows us to estimate the risk of spread of this resistance.
+`
+This pipeline was created in coordination with the WMDI.
 
 ## Quickstart: Pipelines
 
-Below are the latest versions of the Galaxy workflows (pipelines)
+Below are the links to the Galaxy workflows (pipelines)
 
 
 | Workflow                | Description                                      | Version |
