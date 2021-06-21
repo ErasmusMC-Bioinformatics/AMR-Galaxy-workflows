@@ -10,20 +10,23 @@ Below are the latest versions of the Galaxy workflows (pipelines)
 
 | Workflow                | Description                                      | Version |
 |-------------------------|--------------------------------------------------|---------|
-| [Flye](../Flye_longreads_v3.4.ga)         | Pipeline using the Flye assembler on long read data  |  3.4    |
-| Unicycler hybrid        | Unicycler assembler on both short and long reads |         |
-| Unicycler long-read     | Unicycler assembler on long read data            |         |
-| Unicycler short-read    | Unicycler assembler on short read data           |         |
-| Miniasm/Minimap         | Superseded by Unicycler workflows                |         |
+| [Latest](../Flye_longreads_v3.4.ga)         | Pipeline using the Flye assembler on long read data  |  3.4    |
 
-
-**Note:** The Unicycler tool runs multiple rounds of Miniasm/Minimap, until no furhter improvement is found. The Miniasm/Minimap workflow listed in this table does only one such round and is provided here for testing and comparison purposes. In most cases the Unicycler pipeline will be preferred.
 
 ## Running the pipelines
 
-- These workflows can be imported into the Galaxy server of your choice.
+- This workflow can be imported into the Galaxy server of your choice.
 - We recommend using the European Galaxy server ([usegalaxy.eu](https://usegalaxy.eu)); it is free to use for anybody, and has a default of 250 GB of data storage.
 
+
+## Example Run
+
+We have made example dataset and an example run history available for on the European Galaxy server:
+  - [Example Data in Galaxy](https://usegalaxy.eu/u/saskia/h/emc-amr-workflow-flye-example-data)
+  - [Example Galaxy Run](https://usegalaxy.eu/u/saskia/h/emc-amr-workflow-flye-example-run)
+
+
+## Running Yourself
 
 ### 1. Importing the Workflows into Galaxy
 
@@ -43,25 +46,7 @@ Below are the latest versions of the Galaxy workflows (pipelines)
 
 ### 3. Viewing the results
 
-#### A. Viewing the workflow report
-
-Galaxy will create a workflow report for you with the various outputs combined into a single page.
-
-1. Go to **"User"** in the top menu bar
-2. Click on **"Workflow invocations"**
-  - Here you will see all the workflows you have run
-  - Click on your workflow name to expand it
-3. Click on **View report**
-  ![screenshot of button to click for workflow report](images/screenshot_workflow_invocations.png)
-4. You should see a report file a little like this:
-  ![example of a workflow report](images/screenshot_workflow_report.png)
-
-
-This page can also be downloaded as a PDF.
-
-#### B. View the full analysis history
-
-To see more outputs, you can also browse the Galaxy *history*. Here you browse and download all the created output files
+After the workflow has completed, the results will be stored in your Galaxy *history*. Here you browse and download all the created output files
 
 ![](images/screenshot_history.png)
 
