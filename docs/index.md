@@ -53,11 +53,34 @@ After the workflow has completed, the results will be stored in your Galaxy *his
 
 ![](images/screenshot_history.png)
 
+Below are screenshot of the results from the [example Galaxy run](https://usegalaxy.eu/u/saskia/h/emc-amr-workflow-flye-example-run). You can import this example run into your own Galaxy account to explore the example results in more detail.
+
+#### Final Results table
+
+![](images/results-table1.png)
+![](images/results-table2.png)
+
+#### Top 10 BLAST hits
+
+![](images/blast.png)
+
+#### Bandage Assembly plot
+
+![](images/bandage.png)
+
+#### Circos Plot
+
+![](images/circos.png)
+
 
 ## Further Learning around Galaxy
 
 There are a large number of tutorial around using Galaxy and performing a variety of scientific analyses. See the [Galaxy Training Network (GTN)](https://training.galaxyproject.org) for all tutorials.
 
+In particular, we recommend you look at the following tutorial:
+ - [AMR detection of long-read plasmid data](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html)
+
+This tutorial employs a similar workflow to the one presented here.
 
 ## About the Tools
 
