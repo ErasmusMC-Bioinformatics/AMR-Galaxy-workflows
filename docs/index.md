@@ -26,7 +26,7 @@ Below are the links to the Galaxy workflows (pipelines)
 
 We have made example dataset and an example run history available for on the European Galaxy server:
   - [Example Data in Galaxy](https://usegalaxy.eu/u/saskia/h/published-amr-pipeline-example-data-wmdi)
-  - [Example Galaxy Run](https://usegalaxy.eu/u/saskia/h/emc-amr-workflow-flye-example-run)
+  - [Example Galaxy Run](https://usegalaxy.eu/u/saskia/h/published-amr-pipeline-example-run-v34)
 
 
 ## Running Yourself
@@ -58,7 +58,6 @@ Below are screenshot of the results from the [example Galaxy run](https://usegal
 #### Final Results table
 
 ![](images/results-table1.png)
-![](images/results-table2.png)
 
 #### Top 10 BLAST hits
 
