@@ -13,7 +13,7 @@ Below are the links to the Galaxy workflows (pipelines)
 
 | Workflow                | Description                                      | Version |
 |-------------------------|--------------------------------------------------|---------|
-| [Latest](../Flye_longreads_v3.4.ga)         | Pipeline using the Flye assembler on long read data  |  3.4    |
+| [Latest]({{site.baseurl}}/Flye_longreads_v3.4.ga)         | Pipeline using the Flye assembler on long read data  |  3.4    |
 
 
 ## Running the pipelines
