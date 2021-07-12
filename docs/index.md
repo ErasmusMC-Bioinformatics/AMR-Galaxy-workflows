@@ -13,7 +13,7 @@ Below are the links to the Galaxy workflows (pipelines)
 
 | Workflow                | Description                                      | Version |
 |-------------------------|--------------------------------------------------|---------|
-| [Latest]({{site.baseurl}}/Flye_longreads_v3.4.ga)         | Pipeline using the Flye assembler on long read data  |  3.4    |
+| [Latest](https://raw.githubusercontent.com/ErasmusMC-Bioinformatics/AMR-Galaxy-workflows/main/Flye_longreads_v3.4.ga)         | Pipeline using the Flye assembler on long read data  |  3.4    |
 
 
 ## Running the pipelines
@@ -25,7 +25,7 @@ Below are the links to the Galaxy workflows (pipelines)
 ## Example Run
 
 We have made example dataset and an example run history available for on the European Galaxy server:
-  - [Example Data in Galaxy](https://usegalaxy.eu/u/saskia/h/emc-amr-workflow-flye-example-data)
+  - [Example Data in Galaxy](https://usegalaxy.eu/u/saskia/h/published-amr-pipeline-example-data-wmdi)
   - [Example Galaxy Run](https://usegalaxy.eu/u/saskia/h/emc-amr-workflow-flye-example-run)
 
 
