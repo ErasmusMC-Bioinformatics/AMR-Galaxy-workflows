@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true",
     "annotation": "",
     "format-version": "0.1",
-    "name": "AMR workflows EMC/WMDI - v3.5",
+    "name": "Flye-AMR workflow EMC/WMDI - v3.5",
     "report": {
         "markdown": "# Workflow Report\n\n\n## Results table\n\n\n```galaxy\nhistory_dataset_embedded(output=\"Final results table\")\n```\n\n\n## Top BLAST hits\n\n```galaxy\nhistory_dataset_embedded(output=\"Top BLAST hits\")\n```\n\nDownload results table: \n```galaxy\nhistory_dataset_link(output=\"Final results table\")\n```\n\nDownload top BLAST hits table: \n```galaxy\nhistory_dataset_link(output=\"Top BLAST hits\")\n```\n\n\n## Circos plot\n\n```galaxy\nhistory_dataset_as_image(output=\"Circos Plot\")\n```\n\n## Bandage Assembly Image\n\n\n```galaxy\nhistory_dataset_as_image(output=\"Bandage image\")\n```\n\n"
     },
