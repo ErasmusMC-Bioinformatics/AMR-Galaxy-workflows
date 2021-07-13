@@ -1,6 +1,6 @@
 # EMC Galaxy Pipelines: Antimicrobial Analysis of Long-read data using Flye.
 
-Rapid detection of resistant bacteria and corresponding antimicrobial resistance (AMR) mechanisms is of vital importance for adequate patient care, and prevention of further spread of resistant bacteria between patients in the hospital and in society. Mechanisms of antimicrobial resistance are encoded in the genome (chromosome and plasmids) of the bacteria. Plasmids in particular often encode multiple resistance genes, and can be relatively easily transfered from one bacteria to another, both within and between species. Therefore, plasmids are an important vector in the spread of resistance.
+Rapid detection of resistant bacteria and corresponding antimicrobial resistance (AMR) mechanisms is of vital importance for adequate patient care, and prevention of further spread of resistant bacteria between patients in the hospital and in society. Mechanisms of antimicrobial resistance are encoded in the genome (chromosome and plasmids) of the bacteria. Plasmids in particular often contain multiple resistance genes, and can be relatively easily transfered from one bacteria to another, both within and between species. Therefore, plasmids are an important vector in the spread of resistance.
 
 For rapid plasmid AMR detection, [Oxford Nanopore Technologies](https://nanoporetech.com) sequencing is very interesting. This techniques allows for the sequencing of long DNA-fragments (> 100.000 bp). Using these long reads, the full bacterial genome can be assembled, and we can distinguish between chromosomal and plasmid DNA. This allows us to determine whether resistance is encoded on the chromosome or on a plasmid, and allows us to estimate the risk of spread of this resistance.
 `
@@ -35,7 +35,7 @@ We have made example dataset and an example run history available for on the Eur
 
 
 1. Log in or register at the Galaxy server of your choice (e.g. [Galaxy EU](https://usegalaxy.eu))
-2. Copy the URL of the workflow from the table above (or download the file to your computer)
+2. Copy the URL of the page that appears when you click “Latest” in the table above.
 3. Follow the [instructions to import the workflow into Galaxy](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_import.html)
 
 
