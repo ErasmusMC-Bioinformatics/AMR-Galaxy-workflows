@@ -26,7 +26,7 @@ Below are the links to the Galaxy workflows (pipelines)
 
 We have made example dataset and an example run history available for on the European Galaxy server:
   - [Example Data in Galaxy](https://usegalaxy.eu/u/saskia/h/published-amr-pipeline-example-data-wmdi)
-  - [Example Galaxy Run](https://usegalaxy.eu/u/saskia/h/published-amr-pipeline-example-run-v34)
+  - [Example Galaxy Run](https://usegalaxy.eu/u/aheikema/h/run-13-bc-11-half-of-the-reads-flye-vs-35)
 
 
 ## Running Yourself
